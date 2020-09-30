@@ -6,6 +6,12 @@ from __init__ import __version__                      # 2) 或直接在本地定
 
 from setuptools import setup, find_packages
 
+#########
+# autoupgrade 包提供了自动依赖检查，可以让 Dashboard 在安装前检查依赖的 Monitor 的版本，并自动升级到最新版。但是 test 执行在 setup
+# 之前，因此 autoupgrade 包本身无法被自动安装，需要手工安装。安装命令是:
+#
+# $ pip install https://bitbucket.org/jorkar/autoupgrade/get/master.tar.gz
+#
 #from autoupgrade import AutoUpgrade
 #AutoUpgrade("submodule1", index="https://pypi.company.com/repos").upgrade_if_needed()
 
