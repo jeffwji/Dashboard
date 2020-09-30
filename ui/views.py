@@ -1,7 +1,7 @@
 from .plot import plot
 from django.shortcuts import render
 from .services import commit_service
-from Monitor.github import github
+from github import github
 
 
 async def hello_world(request):
