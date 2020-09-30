@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+<h1>Contributions:</h1>
+
+{% if figure %}
+<div>
+    {% autoescape off %}
+    {{ figure }}
+    {% endautoescape %}
+</div>
+{% endif %}
+
+{% endblock %}
+

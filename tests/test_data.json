@@ -1,0 +1,2372 @@
+[
+  {
+    "sha": "e78e08d5880f2e5281810f992988657f9e64b6fd",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmU3OGUwOGQ1ODgwZjJlNTI4MTgxMGY5OTI5ODg2NTdmOWU2NGI2ZmQ=",
+    "commit": {
+      "author": {
+        "name": "Ondra Pelech",
+        "email": "ondra.pelech@gmail.com",
+        "date": "2020-09-30T00:36:41Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-30T00:36:41Z"
+      },
+      "message": "Scalafix: semanticdb:synthetics:on (some rules need it) (#4261)",
+      "tree": {
+        "sha": "0ba91107a4b2836cb7537cbaa791b3f6e72597cb",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/0ba91107a4b2836cb7537cbaa791b3f6e72597cb"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/e78e08d5880f2e5281810f992988657f9e64b6fd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfc9MZCRBK7hj4Ov3rIwAAdHIIAB5fQruDjW05jA2jvL1Djdlt\nnRPjUFrkysq+sfl6dHWWthSZTiL8nOOe0U1AoYjhQXRhn9/ZNY1itWaegmusVdpF\nsvU9lpr7u3vN4InevURA6GduFctyOKknWJsod43IHCktpH8AWa/U2zsSb3nTgcr+\nMlg2V0vXYFLew39ORDFFoUF/wh+09XNtWZ1KX0JxLN0xowYu2WuCHxLr5b2uZzfv\nFT3U617dCBA7PAqV/cQew/CT0q18SDua7IZQKYRYGoHPTuUFR0HgDjGV34SEt0uQ\nfS9hz9SkC3Z4NJAJfjtq3gwgc9s8QIC0Ev93UWi7IY0dbh6MNO2yquMJHX5Xiag=\n=stFN\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0ba91107a4b2836cb7537cbaa791b3f6e72597cb\nparent fb2adf2d43614af4598f35eddc4ae0693de7fae3\nauthor Ondra Pelech <ondra.pelech@gmail.com> 1601426201 +0200\ncommitter GitHub <noreply@github.com> 1601426201 -0700\n\nScalafix: semanticdb:synthetics:on (some rules need it) (#4261)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/e78e08d5880f2e5281810f992988657f9e64b6fd",
+    "html_url": "https://github.com/zio/zio/commit/e78e08d5880f2e5281810f992988657f9e64b6fd",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/e78e08d5880f2e5281810f992988657f9e64b6fd/comments",
+    "author": {
+      "login": "sideeffffect",
+      "id": 9019485,
+      "node_id": "MDQ6VXNlcjkwMTk0ODU=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9019485?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sideeffffect",
+      "html_url": "https://github.com/sideeffffect",
+      "followers_url": "https://api.github.com/users/sideeffffect/followers",
+      "following_url": "https://api.github.com/users/sideeffffect/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sideeffffect/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sideeffffect/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sideeffffect/subscriptions",
+      "organizations_url": "https://api.github.com/users/sideeffffect/orgs",
+      "repos_url": "https://api.github.com/users/sideeffffect/repos",
+      "events_url": "https://api.github.com/users/sideeffffect/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sideeffffect/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fb2adf2d43614af4598f35eddc4ae0693de7fae3",
+        "url": "https://api.github.com/repos/zio/zio/commits/fb2adf2d43614af4598f35eddc4ae0693de7fae3",
+        "html_url": "https://github.com/zio/zio/commit/fb2adf2d43614af4598f35eddc4ae0693de7fae3"
+      }
+    ]
+  },
+  {
+    "sha": "fb2adf2d43614af4598f35eddc4ae0693de7fae3",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmZiMmFkZjJkNDM2MTRhZjQ1OThmMzVlZGRjNGFlMDY5M2RlN2ZhZTM=",
+    "commit": {
+      "author": {
+        "name": "Ondra Pelech",
+        "email": "ondra.pelech@gmail.com",
+        "date": "2020-09-29T21:27:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-29T21:27:46Z"
+      },
+      "message": "Build ZIO Test for Scala Native (#4260)",
+      "tree": {
+        "sha": "35f48c211eea81baa6b4677fa367bda002e1eabc",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/35f48c211eea81baa6b4677fa367bda002e1eabc"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/fb2adf2d43614af4598f35eddc4ae0693de7fae3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfc6bSCRBK7hj4Ov3rIwAAdHIIAFbFRylPE/kiEBQVE/cU5zwJ\nwrjfgWjvU9uARgf9nSGB7GBNAmHWn9ptnXbcJepJMVvm8ryAsQwzeGQh5OBnY3qN\nKR5gsdyetQ4WaetlEQTI64PRq9DBEcydEbYLT/7eiYuT6HqPF8c6NdLtnzjYnfbB\nEYL9Zu3nymFbZbi+vJYewNKmHxvd474FuSIv2AtJShaHPwNoEta1HXdjbkRbrYPe\nzNvIRex0M8TLFPGXEuqRN+BMhE8eS4JCwIQMHL8fdxmWEkn6XTZbfGR2NBIkDfvX\nhjv5MZsPMvEVaXxPApDRQxWI8idRInFBBaaYFVucFWcrpQpk0aU4K3ngCz4K87s=\n=bu+8\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 35f48c211eea81baa6b4677fa367bda002e1eabc\nparent 1774c8e3d4c2b187c71d1d1815d1d668723bfe8e\nauthor Ondra Pelech <ondra.pelech@gmail.com> 1601414866 +0200\ncommitter GitHub <noreply@github.com> 1601414866 -0700\n\nBuild ZIO Test for Scala Native (#4260)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/fb2adf2d43614af4598f35eddc4ae0693de7fae3",
+    "html_url": "https://github.com/zio/zio/commit/fb2adf2d43614af4598f35eddc4ae0693de7fae3",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/fb2adf2d43614af4598f35eddc4ae0693de7fae3/comments",
+    "author": {
+      "login": "sideeffffect",
+      "id": 9019485,
+      "node_id": "MDQ6VXNlcjkwMTk0ODU=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9019485?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sideeffffect",
+      "html_url": "https://github.com/sideeffffect",
+      "followers_url": "https://api.github.com/users/sideeffffect/followers",
+      "following_url": "https://api.github.com/users/sideeffffect/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sideeffffect/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sideeffffect/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sideeffffect/subscriptions",
+      "organizations_url": "https://api.github.com/users/sideeffffect/orgs",
+      "repos_url": "https://api.github.com/users/sideeffffect/repos",
+      "events_url": "https://api.github.com/users/sideeffffect/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sideeffffect/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1774c8e3d4c2b187c71d1d1815d1d668723bfe8e",
+        "url": "https://api.github.com/repos/zio/zio/commits/1774c8e3d4c2b187c71d1d1815d1d668723bfe8e",
+        "html_url": "https://github.com/zio/zio/commit/1774c8e3d4c2b187c71d1d1815d1d668723bfe8e"
+      }
+    ]
+  },
+  {
+    "sha": "1774c8e3d4c2b187c71d1d1815d1d668723bfe8e",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjE3NzRjOGUzZDRjMmIxODdjNzFkMWQxODE1ZDFkNjY4NzIzYmZlOGU=",
+    "commit": {
+      "author": {
+        "name": "Adam Fraser",
+        "email": "adam.fraser@gmail.com",
+        "date": "2020-09-29T18:45:26Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-29T18:45:26Z"
+      },
+      "message": "harden TestClock (#4248)",
+      "tree": {
+        "sha": "959c25f24aad3ad3e69f8f2ae235a7c22164aebf",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/959c25f24aad3ad3e69f8f2ae235a7c22164aebf"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/1774c8e3d4c2b187c71d1d1815d1d668723bfe8e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfc4DGCRBK7hj4Ov3rIwAAdHIIAKk7a5KsteFS3Dr1xOh4kcAH\nr7QXXUNLfr9MrMEFDVDWx38OX0lOfJkEkAMEnkpZZA3pjJDGVeF4xDHWYfWUMzRf\n9AzjSuRDkiWs279rim1Rwv7JkrXiD7m+0e/sJKA4j1zyETwurQWHDKsn88MJmxvI\nTtmijHznw65+jqJBk3lZN1WZRsNH0K9el/Hpn9db/K/vCZAGVwV9B5yG/bS9t6bM\necq7OfYdbB/98/EFDaX9eHGYSZID/wAyVbHZxspxEPy9LaqlAljaO+PWBGTEE38j\noU+eFfvy7hEcLaL4WUkRoAVAjp8zamvbFBRZPfV73h6jz3Vf36d1qKV+vJJT21U=\n=hnen\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 959c25f24aad3ad3e69f8f2ae235a7c22164aebf\nparent 86f2963ac05809bc93f352fac4acdc215524debd\nauthor Adam Fraser <adam.fraser@gmail.com> 1601405126 -0700\ncommitter GitHub <noreply@github.com> 1601405126 -0400\n\nharden TestClock (#4248)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/1774c8e3d4c2b187c71d1d1815d1d668723bfe8e",
+    "html_url": "https://github.com/zio/zio/commit/1774c8e3d4c2b187c71d1d1815d1d668723bfe8e",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/1774c8e3d4c2b187c71d1d1815d1d668723bfe8e/comments",
+    "author": {
+      "login": "adamgfraser",
+      "id": 20825463,
+      "node_id": "MDQ6VXNlcjIwODI1NDYz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20825463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamgfraser",
+      "html_url": "https://github.com/adamgfraser",
+      "followers_url": "https://api.github.com/users/adamgfraser/followers",
+      "following_url": "https://api.github.com/users/adamgfraser/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamgfraser/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamgfraser/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamgfraser/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamgfraser/orgs",
+      "repos_url": "https://api.github.com/users/adamgfraser/repos",
+      "events_url": "https://api.github.com/users/adamgfraser/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamgfraser/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "86f2963ac05809bc93f352fac4acdc215524debd",
+        "url": "https://api.github.com/repos/zio/zio/commits/86f2963ac05809bc93f352fac4acdc215524debd",
+        "html_url": "https://github.com/zio/zio/commit/86f2963ac05809bc93f352fac4acdc215524debd"
+      }
+    ]
+  },
+  {
+    "sha": "86f2963ac05809bc93f352fac4acdc215524debd",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0Ojg2ZjI5NjNhYzA1ODA5YmM5M2YzNTJmYWM0YWNkYzIxNTUyNGRlYmQ=",
+    "commit": {
+      "author": {
+        "name": "Adam Fraser",
+        "email": "adam.fraser@gmail.com",
+        "date": "2020-09-29T17:50:23Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-29T17:50:23Z"
+      },
+      "message": "avoid recomputing hashcode (#4258)",
+      "tree": {
+        "sha": "72f3a8c8ec88e532b16f2e7fe823198ef2856781",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/72f3a8c8ec88e532b16f2e7fe823198ef2856781"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/86f2963ac05809bc93f352fac4acdc215524debd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfc3PfCRBK7hj4Ov3rIwAAdHIIABZPeT7cli7cI9Lwcc0OAjsW\nriSZt/sAcnjIAq0DnIingJvmJ1kSRJfIO0Qd83VyiwsRQPnVmh6aWtGS2876HOTZ\nj+9b4Lm26lJTr3e0ogPhEog2gFvXAENczvwfk8COUVaQ+Mu/k1+IFbMQTqCU93ru\nctxJamyliwcm0T//CYRckQt8P1XqHEb43AcgFrv27meueRY9B/2B4wdHmT//Bmy6\nrCltNvgJp3dqz9eNy9b4niKZtS+F4cl7Vl9MGxtI6nE8hZFQe8UEEC8+qw/rKqQO\ni+oJoKxpYTZ2Iwyw6hCSvy63kusiafdlsfzNDFA6aSNoxz169KPhX9c/7WH+QBU=\n=6qpC\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 72f3a8c8ec88e532b16f2e7fe823198ef2856781\nparent a2ed6a8870933098ce659fa6749eb212480cbd13\nauthor Adam Fraser <adam.fraser@gmail.com> 1601401823 -0700\ncommitter GitHub <noreply@github.com> 1601401823 -0700\n\navoid recomputing hashcode (#4258)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/86f2963ac05809bc93f352fac4acdc215524debd",
+    "html_url": "https://github.com/zio/zio/commit/86f2963ac05809bc93f352fac4acdc215524debd",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/86f2963ac05809bc93f352fac4acdc215524debd/comments",
+    "author": {
+      "login": "adamgfraser",
+      "id": 20825463,
+      "node_id": "MDQ6VXNlcjIwODI1NDYz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20825463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamgfraser",
+      "html_url": "https://github.com/adamgfraser",
+      "followers_url": "https://api.github.com/users/adamgfraser/followers",
+      "following_url": "https://api.github.com/users/adamgfraser/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamgfraser/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamgfraser/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamgfraser/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamgfraser/orgs",
+      "repos_url": "https://api.github.com/users/adamgfraser/repos",
+      "events_url": "https://api.github.com/users/adamgfraser/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamgfraser/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a2ed6a8870933098ce659fa6749eb212480cbd13",
+        "url": "https://api.github.com/repos/zio/zio/commits/a2ed6a8870933098ce659fa6749eb212480cbd13",
+        "html_url": "https://github.com/zio/zio/commit/a2ed6a8870933098ce659fa6749eb212480cbd13"
+      }
+    ]
+  },
+  {
+    "sha": "a2ed6a8870933098ce659fa6749eb212480cbd13",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmEyZWQ2YTg4NzA5MzMwOThjZTY1OWZhNjc0OWViMjEyNDgwY2JkMTM=",
+    "commit": {
+      "author": {
+        "name": "Dejan Mijić",
+        "email": "dmijic@acm.org",
+        "date": "2020-09-29T17:22:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-29T17:22:05Z"
+      },
+      "message": "Remove thread factory hash from thread name (#4256)\n\nAddresses [this question](https://discordapp.com/channels/629491597070827530/630498701860929559/759378210890317834).\r\n\r\ncc @melgenek",
+      "tree": {
+        "sha": "0842a9590094aaeb089ffb9283ca3737fe1677b2",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/0842a9590094aaeb089ffb9283ca3737fe1677b2"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/a2ed6a8870933098ce659fa6749eb212480cbd13",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfc209CRBK7hj4Ov3rIwAAdHIIAKMekMe2tpFCwafgplP9BU0U\nrtlVR3gs291QqSF4FAonK1jPJ2N8BSPGeQE4E8qbHtYOs9cDNClpuo/aJ8hSV8Yk\nqATSZOv/E68nvqFzZVNCNMC6mD+MnRJbC1QbLUCSqaSwFdGHn8EGYany/9ed6Mnx\nt//QduhGqz1ygdACNfa4kJBoP65wyDnUExUV7vvDUxWFf/GVvAiLwgUKqStAUkYt\nFP8DLfQMExpA7U5KFhoWp7P0Vo4lz2mjx88h7lGXh2Id6z798uE2ILFz1AlNuzGb\nFxJcF/O8qW1ECsb8mge9liHUDqRvDp12AR+i8CoD9sUOIMX3m9+ldC10QzSTpXI=\n=rO0o\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0842a9590094aaeb089ffb9283ca3737fe1677b2\nparent 93527f2f918589cc1b162a780a3a69b22cebcfb3\nauthor Dejan Mijić <dmijic@acm.org> 1601400125 +0200\ncommitter GitHub <noreply@github.com> 1601400125 -0400\n\nRemove thread factory hash from thread name (#4256)\n\nAddresses [this question](https://discordapp.com/channels/629491597070827530/630498701860929559/759378210890317834).\r\n\r\ncc @melgenek"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/a2ed6a8870933098ce659fa6749eb212480cbd13",
+    "html_url": "https://github.com/zio/zio/commit/a2ed6a8870933098ce659fa6749eb212480cbd13",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/a2ed6a8870933098ce659fa6749eb212480cbd13/comments",
+    "author": {
+      "login": "mijicd",
+      "id": 4712120,
+      "node_id": "MDQ6VXNlcjQ3MTIxMjA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4712120?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mijicd",
+      "html_url": "https://github.com/mijicd",
+      "followers_url": "https://api.github.com/users/mijicd/followers",
+      "following_url": "https://api.github.com/users/mijicd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mijicd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mijicd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mijicd/subscriptions",
+      "organizations_url": "https://api.github.com/users/mijicd/orgs",
+      "repos_url": "https://api.github.com/users/mijicd/repos",
+      "events_url": "https://api.github.com/users/mijicd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mijicd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "93527f2f918589cc1b162a780a3a69b22cebcfb3",
+        "url": "https://api.github.com/repos/zio/zio/commits/93527f2f918589cc1b162a780a3a69b22cebcfb3",
+        "html_url": "https://github.com/zio/zio/commit/93527f2f918589cc1b162a780a3a69b22cebcfb3"
+      }
+    ]
+  },
+  {
+    "sha": "93527f2f918589cc1b162a780a3a69b22cebcfb3",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjkzNTI3ZjJmOTE4NTg5Y2MxYjE2MmE3ODBhM2E2OWIyMmNlYmNmYjM=",
+    "commit": {
+      "author": {
+        "name": "Kai",
+        "email": "450507+neko-kai@users.noreply.github.com",
+        "date": "2020-09-28T17:11:12Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-28T17:11:12Z"
+      },
+      "message": "Update izumi-reflect to 1.0.0-M8 (#4254)\n\nCo-authored-by: Scala Steward <me@scala-steward.org>",
+      "tree": {
+        "sha": "2532de7fe3903fea548dec57ad04e0e3f7d08a52",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/2532de7fe3903fea548dec57ad04e0e3f7d08a52"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/93527f2f918589cc1b162a780a3a69b22cebcfb3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfchkwCRBK7hj4Ov3rIwAAdHIIAIBdK3oWcuTETjje7P8plXM/\nEpojM12eepa1wa6RtqJu7W+hqhHYSSD2LDPLQvbhS0A9RkICJvz2B/kx6BTZA2zB\nNTluSidwZl8k1jifqvkbHHvKxw1W8HieLcYhKksVNUq6eL7rQIQgsxfVUwqgMGUa\nGhr1yVmjtOOplHS8+eiQEJyEzSsDW/GO7vCFYz7gjnhR6xXHjmhZLld88uuuJQSF\nlMPEdzK04An2y6j5jrvxpsq2inPT/P8Dc4mPoJGtGJq10iQSV5tkQrmRhSJ0jsu5\nYMMyu+3t6AaXBO+FXcyjtEzMrmi41wTPJjT6dd6G9DEaCXyyKPRRW8OAhdZEnhs=\n=iZm6\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2532de7fe3903fea548dec57ad04e0e3f7d08a52\nparent a70f4a0afc7ec13efcf7db696996d905348548be\nauthor Kai <450507+neko-kai@users.noreply.github.com> 1601313072 +0100\ncommitter GitHub <noreply@github.com> 1601313072 -0700\n\nUpdate izumi-reflect to 1.0.0-M8 (#4254)\n\nCo-authored-by: Scala Steward <me@scala-steward.org>"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/93527f2f918589cc1b162a780a3a69b22cebcfb3",
+    "html_url": "https://github.com/zio/zio/commit/93527f2f918589cc1b162a780a3a69b22cebcfb3",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/93527f2f918589cc1b162a780a3a69b22cebcfb3/comments",
+    "author": {
+      "login": "neko-kai",
+      "id": 450507,
+      "node_id": "MDQ6VXNlcjQ1MDUwNw==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/450507?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/neko-kai",
+      "html_url": "https://github.com/neko-kai",
+      "followers_url": "https://api.github.com/users/neko-kai/followers",
+      "following_url": "https://api.github.com/users/neko-kai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/neko-kai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/neko-kai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/neko-kai/subscriptions",
+      "organizations_url": "https://api.github.com/users/neko-kai/orgs",
+      "repos_url": "https://api.github.com/users/neko-kai/repos",
+      "events_url": "https://api.github.com/users/neko-kai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/neko-kai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a70f4a0afc7ec13efcf7db696996d905348548be",
+        "url": "https://api.github.com/repos/zio/zio/commits/a70f4a0afc7ec13efcf7db696996d905348548be",
+        "html_url": "https://github.com/zio/zio/commit/a70f4a0afc7ec13efcf7db696996d905348548be"
+      }
+    ]
+  },
+  {
+    "sha": "a70f4a0afc7ec13efcf7db696996d905348548be",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmE3MGY0YTBhZmM3ZWMxM2VmY2Y3ZGI2OTY5OTZkOTA1MzQ4NTQ4YmU=",
+    "commit": {
+      "author": {
+        "name": "Adam Fraser",
+        "email": "adam.fraser@gmail.com",
+        "date": "2020-09-28T16:56:50Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-28T16:56:50Z"
+      },
+      "message": "Don't Leak Fibers From Within ZIO#foreachParN (#4253)\n\n* don't leak fibers from within ZIO#foreachParN\r\n\r\n* address review comments",
+      "tree": {
+        "sha": "b9625c483f4579152886b9ebd769463268afcb96",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/b9625c483f4579152886b9ebd769463268afcb96"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/a70f4a0afc7ec13efcf7db696996d905348548be",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfchXSCRBK7hj4Ov3rIwAAdHIIAFSQlWiovrLTmS6R2KMrVUB+\nROETGXV5CknRDyZWAFpzzdTZxlMca85Q/+j7t7c15WCvqjsEUmONXCjwKKHBVRWE\nf03pxN4qnr8goodJOAIDdfIelxKdttswgaGIzSArZ40YYA6EZh4tbptC7pfYKKls\nhsIR7sCh2dQKdcxxxaG54U9s0UYMn4uJnysncyjuhprQNmizg9l1AjJY0PmQz1g7\n8sH/ZrJ6Fc0M6DxnCO3F1sAI0Ppp9COaVcio63niuJZ11YyaxMYWkPnPsuZpABfR\noBxezNhfNta1kKBQcgQJ5DFEwkTL5rN+C7vVEkUDSO/0RqE8Erd7BCuXfZ2iLQM=\n=LDsx\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b9625c483f4579152886b9ebd769463268afcb96\nparent 34dad6630efc68f23b0acf0855bfd686ee14d975\nauthor Adam Fraser <adam.fraser@gmail.com> 1601312210 -0700\ncommitter GitHub <noreply@github.com> 1601312210 -0700\n\nDon't Leak Fibers From Within ZIO#foreachParN (#4253)\n\n* don't leak fibers from within ZIO#foreachParN\r\n\r\n* address review comments"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/a70f4a0afc7ec13efcf7db696996d905348548be",
+    "html_url": "https://github.com/zio/zio/commit/a70f4a0afc7ec13efcf7db696996d905348548be",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/a70f4a0afc7ec13efcf7db696996d905348548be/comments",
+    "author": {
+      "login": "adamgfraser",
+      "id": 20825463,
+      "node_id": "MDQ6VXNlcjIwODI1NDYz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20825463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamgfraser",
+      "html_url": "https://github.com/adamgfraser",
+      "followers_url": "https://api.github.com/users/adamgfraser/followers",
+      "following_url": "https://api.github.com/users/adamgfraser/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamgfraser/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamgfraser/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamgfraser/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamgfraser/orgs",
+      "repos_url": "https://api.github.com/users/adamgfraser/repos",
+      "events_url": "https://api.github.com/users/adamgfraser/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamgfraser/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "34dad6630efc68f23b0acf0855bfd686ee14d975",
+        "url": "https://api.github.com/repos/zio/zio/commits/34dad6630efc68f23b0acf0855bfd686ee14d975",
+        "html_url": "https://github.com/zio/zio/commit/34dad6630efc68f23b0acf0855bfd686ee14d975"
+      }
+    ]
+  },
+  {
+    "sha": "34dad6630efc68f23b0acf0855bfd686ee14d975",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjM0ZGFkNjYzMGVmYzY4ZjIzYjBhY2YwODU1YmZkNjg2ZWUxNGQ5NzU=",
+    "commit": {
+      "author": {
+        "name": "Scala Steward",
+        "email": "43047562+scala-steward@users.noreply.github.com",
+        "date": "2020-09-28T16:55:15Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-28T16:55:15Z"
+      },
+      "message": "Update organize-imports to 0.4.2 (#4251)",
+      "tree": {
+        "sha": "73e7946de85ea2cfa958601591f22ea4e5ab6f4d",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/73e7946de85ea2cfa958601591f22ea4e5ab6f4d"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/34dad6630efc68f23b0acf0855bfd686ee14d975",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfchVzCRBK7hj4Ov3rIwAAdHIIAG2WPNtgGQU3iRhk5PDQicr9\nXYA0dGdq3U0R4VopWaP+9Wp/6Eoe7yNsyXlQmOtKWsSOEmqfAmxgspwsbfbAuqpB\nWCUGp1i3WZ9c+jBd4rXyomSEDNbEuXLAFPIfHt9+imQKOzm7AM3CIGcIpX8ZKqNq\nV2zXssvnBkRa2CVucDkpz2314cEhWDUv/UeSDLh3DPIHLPrtRm8lg4stbDIPX6qL\nK6oTjQmW+l11oCX66Xj/I3m3KR/qr7ra/kVy3HyEdcrMJLtk6K9Pj+zgf/tOymIp\nmGNhzkl6Z5rlBKKv9tpU1W++/8fDnXO9ikhfpTIeuuN6Sk8T0eENhyiUAps6F3E=\n=jYxu\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 73e7946de85ea2cfa958601591f22ea4e5ab6f4d\nparent eb1444d2eb944213eb3947b96bbbb5eeddcf6541\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1601312115 +0200\ncommitter GitHub <noreply@github.com> 1601312115 -0700\n\nUpdate organize-imports to 0.4.2 (#4251)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/34dad6630efc68f23b0acf0855bfd686ee14d975",
+    "html_url": "https://github.com/zio/zio/commit/34dad6630efc68f23b0acf0855bfd686ee14d975",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/34dad6630efc68f23b0acf0855bfd686ee14d975/comments",
+    "author": {
+      "login": "scala-steward",
+      "id": 43047562,
+      "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scala-steward",
+      "html_url": "https://github.com/scala-steward",
+      "followers_url": "https://api.github.com/users/scala-steward/followers",
+      "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+      "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+      "repos_url": "https://api.github.com/users/scala-steward/repos",
+      "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eb1444d2eb944213eb3947b96bbbb5eeddcf6541",
+        "url": "https://api.github.com/repos/zio/zio/commits/eb1444d2eb944213eb3947b96bbbb5eeddcf6541",
+        "html_url": "https://github.com/zio/zio/commit/eb1444d2eb944213eb3947b96bbbb5eeddcf6541"
+      }
+    ]
+  },
+  {
+    "sha": "eb1444d2eb944213eb3947b96bbbb5eeddcf6541",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmViMTQ0NGQyZWI5NDQyMTNlYjM5NDdiOTZiYmJiNWVlZGRjZjY1NDE=",
+    "commit": {
+      "author": {
+        "name": "Ondra Pelech",
+        "email": "ondra.pelech@gmail.com",
+        "date": "2020-09-28T00:41:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-28T00:41:46Z"
+      },
+      "message": "Compile ZIO Streams for Scala Native (#4252)",
+      "tree": {
+        "sha": "a260fe562235038f51c58dba984f4ed90570b7b6",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/a260fe562235038f51c58dba984f4ed90570b7b6"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/eb1444d2eb944213eb3947b96bbbb5eeddcf6541",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfcTFKCRBK7hj4Ov3rIwAAdHIIAE/UbY4GHMzH0m/bcd6QezGh\n6YHzSLG7psEqUqH8vlKNCFjkeKb64e47Ws2qvpz2aMSK2yXcIQfSLlaWz4znPxDi\nhv9+LKaTiiZDHkr4cYjJGLiKzZBMXQad5rv1/giKmbcBhJKZS6dPJMYmPe8si3OS\nkUolazqnZNkbwHLDxsCoknmc/rCPiEeteDWfqacZYB4YtwX/Rbs7IC6kEm3HZ22O\nzwYMFDKyv4ani8Sefwd379r+Ms9S18mlJ0FycLmBGtddMHiqsrhBxzbUdSYul7p8\nFnEKVIvArH8pvvVAJrXBWnBK+PyfsT5b83Zr+JekLVhxFuUAHLbiSb8ezHPKk20=\n=16ax\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a260fe562235038f51c58dba984f4ed90570b7b6\nparent f66203008a36d0d18102ebe0389ff26deb66666f\nauthor Ondra Pelech <ondra.pelech@gmail.com> 1601253706 +0200\ncommitter GitHub <noreply@github.com> 1601253706 -0700\n\nCompile ZIO Streams for Scala Native (#4252)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/eb1444d2eb944213eb3947b96bbbb5eeddcf6541",
+    "html_url": "https://github.com/zio/zio/commit/eb1444d2eb944213eb3947b96bbbb5eeddcf6541",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/eb1444d2eb944213eb3947b96bbbb5eeddcf6541/comments",
+    "author": {
+      "login": "sideeffffect",
+      "id": 9019485,
+      "node_id": "MDQ6VXNlcjkwMTk0ODU=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9019485?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sideeffffect",
+      "html_url": "https://github.com/sideeffffect",
+      "followers_url": "https://api.github.com/users/sideeffffect/followers",
+      "following_url": "https://api.github.com/users/sideeffffect/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sideeffffect/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sideeffffect/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sideeffffect/subscriptions",
+      "organizations_url": "https://api.github.com/users/sideeffffect/orgs",
+      "repos_url": "https://api.github.com/users/sideeffffect/repos",
+      "events_url": "https://api.github.com/users/sideeffffect/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sideeffffect/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f66203008a36d0d18102ebe0389ff26deb66666f",
+        "url": "https://api.github.com/repos/zio/zio/commits/f66203008a36d0d18102ebe0389ff26deb66666f",
+        "html_url": "https://github.com/zio/zio/commit/f66203008a36d0d18102ebe0389ff26deb66666f"
+      }
+    ]
+  },
+  {
+    "sha": "f66203008a36d0d18102ebe0389ff26deb66666f",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmY2NjIwMzAwOGEzNmQwZDE4MTAyZWJlMDM4OWZmMjZkZWI2NjY2NmY=",
+    "commit": {
+      "author": {
+        "name": "Salar Rahmanian",
+        "email": "softinio@users.noreply.github.com",
+        "date": "2020-09-27T22:23:06Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-27T22:23:06Z"
+      },
+      "message": "Update resources.md (#4250)",
+      "tree": {
+        "sha": "e2761d8e3e975be66f0bd23fe2f0b3586cd79f44",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/e2761d8e3e975be66f0bd23fe2f0b3586cd79f44"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/f66203008a36d0d18102ebe0389ff26deb66666f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfcRDKCRBK7hj4Ov3rIwAAdHIIADkVN8PpKvkueDr3Snp+5wET\ng6w/zcodIKNu+Wmb+0s4Obglrp/XOV0J0M7kPN5DNLVhcSQdg98vUV4R6Bs/iLYT\nTjhH0ar4/jBc3oCUW21hKvyizJNUmSNjPB7D+UvFjGW/2YStempGgng5oEldHc39\n6i0XyW/qP27O3t2vZwUVE9RlqhSP3JAb9/jQCzOskduC7Up3fBiqdUsmiQBt9cy5\nfUmbV7qS8WdFQ+5cA1uMPgjG6Cv8a19LaN8euSKqv25uLmRRD+TnDjR/HGk7bd/g\nKwWfQhHlkycM0EX6uBpimJ7YiRgKffb5o8BYhPicK2u5Stxpx71gvtWQ6LAOvfk=\n=g8qt\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e2761d8e3e975be66f0bd23fe2f0b3586cd79f44\nparent 765d7958688ecfc9cc91b290eb337721154eb116\nauthor Salar Rahmanian <softinio@users.noreply.github.com> 1601245386 -0700\ncommitter GitHub <noreply@github.com> 1601245386 -0700\n\nUpdate resources.md (#4250)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/f66203008a36d0d18102ebe0389ff26deb66666f",
+    "html_url": "https://github.com/zio/zio/commit/f66203008a36d0d18102ebe0389ff26deb66666f",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/f66203008a36d0d18102ebe0389ff26deb66666f/comments",
+    "author": {
+      "login": "softinio",
+      "id": 3371635,
+      "node_id": "MDQ6VXNlcjMzNzE2MzU=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3371635?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/softinio",
+      "html_url": "https://github.com/softinio",
+      "followers_url": "https://api.github.com/users/softinio/followers",
+      "following_url": "https://api.github.com/users/softinio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/softinio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/softinio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/softinio/subscriptions",
+      "organizations_url": "https://api.github.com/users/softinio/orgs",
+      "repos_url": "https://api.github.com/users/softinio/repos",
+      "events_url": "https://api.github.com/users/softinio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/softinio/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "765d7958688ecfc9cc91b290eb337721154eb116",
+        "url": "https://api.github.com/repos/zio/zio/commits/765d7958688ecfc9cc91b290eb337721154eb116",
+        "html_url": "https://github.com/zio/zio/commit/765d7958688ecfc9cc91b290eb337721154eb116"
+      }
+    ]
+  },
+  {
+    "sha": "765d7958688ecfc9cc91b290eb337721154eb116",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0Ojc2NWQ3OTU4Njg4ZWNmYzljYzkxYjI5MGViMzM3NzIxMTU0ZWIxMTY=",
+    "commit": {
+      "author": {
+        "name": "svroonland",
+        "email": "svroonland@users.noreply.github.com",
+        "date": "2020-09-27T18:04:21Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-27T18:04:21Z"
+      },
+      "message": "Add blog article to resources (#4247)",
+      "tree": {
+        "sha": "491ba3c95fc8bc736d8e58c7d0dedffec9b8bdb8",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/491ba3c95fc8bc736d8e58c7d0dedffec9b8bdb8"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/765d7958688ecfc9cc91b290eb337721154eb116",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfcNQlCRBK7hj4Ov3rIwAAdHIIAH2wXmCs5jOA8EJtFkg3qRX6\nuLc36rG8HO2stplCV2nxQLYYL8+BRpn3N6WtL9SMv1CNd3LhkcB+Y/LXMJHxeR50\nXKnXlPeyAMZCzlVqasxHMBA/VrPj09Tpus4vwMAVSZg7R5s2V+tLEO9zv5kSe6sP\nzfQkfp0wzv5bS+ZWo48QFiokXrmzYf/fCJEOSOxvGP0A25+ps7lMZthUPm9oJDFX\ngKa9JrUu5Cr9Sd+gS3WZMi8M7JC/k3WFcxmY0ffpAbuQjJFbSXq96BMUxu9bH5hC\nYrj28o0KBuHB928jSBhP2dwwt2BhM9jjN9YAjPkZ5fR7C2NDvBl1pwnCuaIM9v4=\n=SzXv\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 491ba3c95fc8bc736d8e58c7d0dedffec9b8bdb8\nparent 6d9d43908bc1ce54eecf2d727ef1e3fa1e74a881\nauthor svroonland <svroonland@users.noreply.github.com> 1601229861 +0200\ncommitter GitHub <noreply@github.com> 1601229861 -0700\n\nAdd blog article to resources (#4247)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/765d7958688ecfc9cc91b290eb337721154eb116",
+    "html_url": "https://github.com/zio/zio/commit/765d7958688ecfc9cc91b290eb337721154eb116",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/765d7958688ecfc9cc91b290eb337721154eb116/comments",
+    "author": {
+      "login": "svroonland",
+      "id": 2190467,
+      "node_id": "MDQ6VXNlcjIxOTA0Njc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2190467?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/svroonland",
+      "html_url": "https://github.com/svroonland",
+      "followers_url": "https://api.github.com/users/svroonland/followers",
+      "following_url": "https://api.github.com/users/svroonland/following{/other_user}",
+      "gists_url": "https://api.github.com/users/svroonland/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/svroonland/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/svroonland/subscriptions",
+      "organizations_url": "https://api.github.com/users/svroonland/orgs",
+      "repos_url": "https://api.github.com/users/svroonland/repos",
+      "events_url": "https://api.github.com/users/svroonland/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/svroonland/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6d9d43908bc1ce54eecf2d727ef1e3fa1e74a881",
+        "url": "https://api.github.com/repos/zio/zio/commits/6d9d43908bc1ce54eecf2d727ef1e3fa1e74a881",
+        "html_url": "https://github.com/zio/zio/commit/6d9d43908bc1ce54eecf2d727ef1e3fa1e74a881"
+      }
+    ]
+  },
+  {
+    "sha": "6d9d43908bc1ce54eecf2d727ef1e3fa1e74a881",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjZkOWQ0MzkwOGJjMWNlNTRlZWNmMmQ3MjdlZjFlM2ZhMWU3NGE4ODE=",
+    "commit": {
+      "author": {
+        "name": "Adam Fraser",
+        "email": "adam.fraser@gmail.com",
+        "date": "2020-09-27T17:27:49Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-27T17:27:49Z"
+      },
+      "message": "O1 must die (#4244)",
+      "tree": {
+        "sha": "a5286cd1216222ef6c0b549d6c54f156edd5c34e",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/a5286cd1216222ef6c0b549d6c54f156edd5c34e"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/6d9d43908bc1ce54eecf2d727ef1e3fa1e74a881",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfcMuVCRBK7hj4Ov3rIwAAdHIIAGayD4TN/1xoBVa8E2S/JK8g\n60V/JVdLFWn1ghm+81oV9+yv9yOW+KsoVYNLkDLuv2w/3Dv68erc9Smxpwe8ETrm\nQY8T7Cgkd6CMVb4tSWSbGEhBz2qLfToPasZMoa5A572OGZD5wizBclMwlt9P2Ayv\nH9PZskamLx+x5ZxlzIr1wj4EH1f0LLly/3zeXBjPWUVPcKnOY/RdSjoIjk4TykwW\nGMcRmillkqQ6BUulRayiMyTD84VmXMM3JCxvuRsBAMVWMTO8RLUIIbFDgZox95ZS\ngrHQ9iZRJJ6rXHPxqBIZGXGZC2na+6HHFLO+UHPa4x6JiFiTEobCfo7NoRvTT1M=\n=DYCE\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a5286cd1216222ef6c0b549d6c54f156edd5c34e\nparent 06319972c122094cbda1bac0d68ee74c768234b9\nauthor Adam Fraser <adam.fraser@gmail.com> 1601227669 -0700\ncommitter GitHub <noreply@github.com> 1601227669 -0700\n\nO1 must die (#4244)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/6d9d43908bc1ce54eecf2d727ef1e3fa1e74a881",
+    "html_url": "https://github.com/zio/zio/commit/6d9d43908bc1ce54eecf2d727ef1e3fa1e74a881",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/6d9d43908bc1ce54eecf2d727ef1e3fa1e74a881/comments",
+    "author": {
+      "login": "adamgfraser",
+      "id": 20825463,
+      "node_id": "MDQ6VXNlcjIwODI1NDYz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20825463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamgfraser",
+      "html_url": "https://github.com/adamgfraser",
+      "followers_url": "https://api.github.com/users/adamgfraser/followers",
+      "following_url": "https://api.github.com/users/adamgfraser/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamgfraser/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamgfraser/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamgfraser/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamgfraser/orgs",
+      "repos_url": "https://api.github.com/users/adamgfraser/repos",
+      "events_url": "https://api.github.com/users/adamgfraser/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamgfraser/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "06319972c122094cbda1bac0d68ee74c768234b9",
+        "url": "https://api.github.com/repos/zio/zio/commits/06319972c122094cbda1bac0d68ee74c768234b9",
+        "html_url": "https://github.com/zio/zio/commit/06319972c122094cbda1bac0d68ee74c768234b9"
+      }
+    ]
+  },
+  {
+    "sha": "06319972c122094cbda1bac0d68ee74c768234b9",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjA2MzE5OTcyYzEyMjA5NGNiZGExYmFjMGQ2OGVlNzRjNzY4MjM0Yjk=",
+    "commit": {
+      "author": {
+        "name": "Scala Steward",
+        "email": "43047562+scala-steward@users.noreply.github.com",
+        "date": "2020-09-26T21:43:21Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-26T21:43:21Z"
+      },
+      "message": "Update zio-interop-cats to 2.1.4.0 (#4240)",
+      "tree": {
+        "sha": "51d52ccc1756db03a1f6d21ac6c39c4b6131ce96",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/51d52ccc1756db03a1f6d21ac6c39c4b6131ce96"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/06319972c122094cbda1bac0d68ee74c768234b9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfb7X5CRBK7hj4Ov3rIwAAdHIIABrQvbp4oVJwku7pq0z/jqbA\nx+0DZJpqEsaJTdChjqvNJEeiM7397JtV7QOwa/mWOGCykkvDe9tUwi27L/+T73T0\n9UiDqD0TGjVih3GI+e98PQLnQDmhtkwL5z+Z/Te6i76jr7Mj0+Vq8f3rTQFzb3ax\np6u8qAFyQBZPldV/DKOI7JGRVyMzX0Tnj+SWwW9RkvqSU/HbidN0/lf5DVjm6ZeI\nmenVCVMUXNSWH/OZLI1OHBWTH0fxYJmKw4C1BtLTeIshxdnmPj+d7zqTeAhp/6sr\ncCuvLWcTCquek5Hhu9t8Eyk9it+zFrufVv+YMpkTwZ9dWw4F4agbYYYZp+pMMbQ=\n=R45C\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 51d52ccc1756db03a1f6d21ac6c39c4b6131ce96\nparent 05290bab9d950da2b79f0d6461a03a29c3a290d8\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1601156601 +0200\ncommitter GitHub <noreply@github.com> 1601156601 +0200\n\nUpdate zio-interop-cats to 2.1.4.0 (#4240)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/06319972c122094cbda1bac0d68ee74c768234b9",
+    "html_url": "https://github.com/zio/zio/commit/06319972c122094cbda1bac0d68ee74c768234b9",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/06319972c122094cbda1bac0d68ee74c768234b9/comments",
+    "author": {
+      "login": "scala-steward",
+      "id": 43047562,
+      "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scala-steward",
+      "html_url": "https://github.com/scala-steward",
+      "followers_url": "https://api.github.com/users/scala-steward/followers",
+      "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+      "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+      "repos_url": "https://api.github.com/users/scala-steward/repos",
+      "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "05290bab9d950da2b79f0d6461a03a29c3a290d8",
+        "url": "https://api.github.com/repos/zio/zio/commits/05290bab9d950da2b79f0d6461a03a29c3a290d8",
+        "html_url": "https://github.com/zio/zio/commit/05290bab9d950da2b79f0d6461a03a29c3a290d8"
+      }
+    ]
+  },
+  {
+    "sha": "05290bab9d950da2b79f0d6461a03a29c3a290d8",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjA1MjkwYmFiOWQ5NTBkYTJiNzlmMGQ2NDYxYTAzYTI5YzNhMjkwZDg=",
+    "commit": {
+      "author": {
+        "name": "Piotr Paradziński",
+        "email": "piotr.paradzinski@iohk.io",
+        "date": "2020-09-26T21:42:55Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-26T21:42:55Z"
+      },
+      "message": "change has new home: qa.hedgehog and upgrades to 0.5.1 (#4245)",
+      "tree": {
+        "sha": "9398bf476180d7728593d238e3c37727e813bbba",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/9398bf476180d7728593d238e3c37727e813bbba"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/05290bab9d950da2b79f0d6461a03a29c3a290d8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfb7XfCRBK7hj4Ov3rIwAAdHIIAKu9I2YaG03bFrylQN+wS+AV\nrmzslyy+Cak32ZjMFIj+rXdRkidR6vwmEH0DETjB+63Sk3a1p6uY3/yWgFASir8o\nlLnvtGvACyFwmByTb3YXYtUCMb8k93sGJzy4apzHTYF/FFTcApaEmyG/RFJnUBxM\nK2It4sbIywrk3XtblEjXcUYvri6A3czQLouiirfTq2yBYeUK/skciY6dGd/NLw3w\nM3WUhLVNaCqdXN3OZd2z/lCxshrTU5k6FWv8LXlzUwAJWwqTvm9pJjlPvRN0k/lR\n6HNlEK0194iX2xDhrLZLBTnaPGvhjCQgD5zb8LB9UkXr99kYMUyaZxs9bmFLZlg=\n=zGUP\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9398bf476180d7728593d238e3c37727e813bbba\nparent f5a4059b99e922d8df974510959f7e518c4d23b7\nauthor Piotr Paradziński <piotr.paradzinski@iohk.io> 1601156575 +0200\ncommitter GitHub <noreply@github.com> 1601156575 +0200\n\nchange has new home: qa.hedgehog and upgrades to 0.5.1 (#4245)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/05290bab9d950da2b79f0d6461a03a29c3a290d8",
+    "html_url": "https://github.com/zio/zio/commit/05290bab9d950da2b79f0d6461a03a29c3a290d8",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/05290bab9d950da2b79f0d6461a03a29c3a290d8/comments",
+    "author": {
+      "login": "lemastero",
+      "id": 10901543,
+      "node_id": "MDQ6VXNlcjEwOTAxNTQz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10901543?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lemastero",
+      "html_url": "https://github.com/lemastero",
+      "followers_url": "https://api.github.com/users/lemastero/followers",
+      "following_url": "https://api.github.com/users/lemastero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lemastero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lemastero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lemastero/subscriptions",
+      "organizations_url": "https://api.github.com/users/lemastero/orgs",
+      "repos_url": "https://api.github.com/users/lemastero/repos",
+      "events_url": "https://api.github.com/users/lemastero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lemastero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f5a4059b99e922d8df974510959f7e518c4d23b7",
+        "url": "https://api.github.com/repos/zio/zio/commits/f5a4059b99e922d8df974510959f7e518c4d23b7",
+        "html_url": "https://github.com/zio/zio/commit/f5a4059b99e922d8df974510959f7e518c4d23b7"
+      }
+    ]
+  },
+  {
+    "sha": "f5a4059b99e922d8df974510959f7e518c4d23b7",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmY1YTQwNTliOTllOTIyZDhkZjk3NDUxMDk1OWY3ZTUxOGM0ZDIzYjc=",
+    "commit": {
+      "author": {
+        "name": "Ondra Pelech",
+        "email": "ondra.pelech@gmail.com",
+        "date": "2020-09-26T15:39:58Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-26T15:39:58Z"
+      },
+      "message": "Trigger auto-approve-action on pull_request_target (#4243)",
+      "tree": {
+        "sha": "2247e14ffd471fbad2929d4b9588985bacbbd16f",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/2247e14ffd471fbad2929d4b9588985bacbbd16f"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/f5a4059b99e922d8df974510959f7e518c4d23b7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfb2DOCRBK7hj4Ov3rIwAAdHIIADIc+HEJwzFEI33cKqg/hpIN\nvcox2JiGa3Lfish9Ih5gmFhbx6+prwxJBNslztY9jiGwySptwflR2bvM9IT8tOf7\nLo4bJxep670B04gi4dtA4U6fsoKz2+8lmWJ4oMWQTzhvXknQw1YKrpkSkXZFN6sm\nLhte/HrWGpeTM3WpK3mFE5FHrGc1Sk2mrPmv640cELeI2zKC3HDU0KjAyQDUyIlk\nC8L8fyopsGfTslAW42fUJKspGQGV4beJLOJFIi9xKbJVydGzx7wfhzHGvUJKHUBW\nooJKRGVQy0y8jhAqYaIIAPNQrCA4iMjQPtnsn2SVvKmo6pC3ljwEF0NrO21P7YM=\n=FHQx\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2247e14ffd471fbad2929d4b9588985bacbbd16f\nparent 5925abcb6fd87bca4c94356db13f3ebe6f41c277\nauthor Ondra Pelech <ondra.pelech@gmail.com> 1601134798 +0200\ncommitter GitHub <noreply@github.com> 1601134798 -0700\n\nTrigger auto-approve-action on pull_request_target (#4243)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/f5a4059b99e922d8df974510959f7e518c4d23b7",
+    "html_url": "https://github.com/zio/zio/commit/f5a4059b99e922d8df974510959f7e518c4d23b7",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/f5a4059b99e922d8df974510959f7e518c4d23b7/comments",
+    "author": {
+      "login": "sideeffffect",
+      "id": 9019485,
+      "node_id": "MDQ6VXNlcjkwMTk0ODU=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9019485?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sideeffffect",
+      "html_url": "https://github.com/sideeffffect",
+      "followers_url": "https://api.github.com/users/sideeffffect/followers",
+      "following_url": "https://api.github.com/users/sideeffffect/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sideeffffect/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sideeffffect/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sideeffffect/subscriptions",
+      "organizations_url": "https://api.github.com/users/sideeffffect/orgs",
+      "repos_url": "https://api.github.com/users/sideeffffect/repos",
+      "events_url": "https://api.github.com/users/sideeffffect/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sideeffffect/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5925abcb6fd87bca4c94356db13f3ebe6f41c277",
+        "url": "https://api.github.com/repos/zio/zio/commits/5925abcb6fd87bca4c94356db13f3ebe6f41c277",
+        "html_url": "https://github.com/zio/zio/commit/5925abcb6fd87bca4c94356db13f3ebe6f41c277"
+      }
+    ]
+  },
+  {
+    "sha": "5925abcb6fd87bca4c94356db13f3ebe6f41c277",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjU5MjVhYmNiNmZkODdiY2E0Yzk0MzU2ZGIxM2YzZWJlNmY0MWMyNzc=",
+    "commit": {
+      "author": {
+        "name": "Jakub Czuchnowski",
+        "email": "jakub.czuchnowski@gmail.com",
+        "date": "2020-09-25T16:22:21Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-25T16:22:21Z"
+      },
+      "message": "Update Dotty to 0.27.0-RC1 (#4213)\n\n* Update Dotty to 0.27.0-RC1\r\n\r\n* Update izumi-reflect to 1.0.0-M7\r\n\r\n* move ZManaged.State to the companion object",
+      "tree": {
+        "sha": "51b26d89ffc914e252a1a8837b0326cbe07b3fb4",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/51b26d89ffc914e252a1a8837b0326cbe07b3fb4"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/5925abcb6fd87bca4c94356db13f3ebe6f41c277",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfbhk9CRBK7hj4Ov3rIwAAdHIIACXuzlBtIapsvkVqh3j2UCTy\nSpQLpLNWOuU1TyUKegD/8dYVu+myA3awv7JWqMrH5jkr7x3NLVYXjNdpG/fEynj5\neEtQ0JfidBjWqpOf6eIR7v1byRWNo/IQQ/q0OMPg3mzs4osx/bSbgt+BrI+TZCPS\nxCnnz3tt10KLEYS/TtoEX7SVG5yFeTNBGMCD9QGzpHbvdZ1+oEnZ20ws35KuO+8W\nyHcRS5+NU3vpJW76AK+7hUdDdM992OPUeQXnPFQQir2mC9keQQWjJgGfJSe05b6p\nH/TG782qBU0CPi/HNkMJUh9DP3LOD3B6iSNNid+8uo8Y3DUGrSkxRLtPQAPAa4I=\n=hCgR\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 51b26d89ffc914e252a1a8837b0326cbe07b3fb4\nparent a000b2fa1d001ed3946000b78d4a7395a7f5f744\nauthor Jakub Czuchnowski <jakub.czuchnowski@gmail.com> 1601050941 +0200\ncommitter GitHub <noreply@github.com> 1601050941 -0700\n\nUpdate Dotty to 0.27.0-RC1 (#4213)\n\n* Update Dotty to 0.27.0-RC1\r\n\r\n* Update izumi-reflect to 1.0.0-M7\r\n\r\n* move ZManaged.State to the companion object"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/5925abcb6fd87bca4c94356db13f3ebe6f41c277",
+    "html_url": "https://github.com/zio/zio/commit/5925abcb6fd87bca4c94356db13f3ebe6f41c277",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/5925abcb6fd87bca4c94356db13f3ebe6f41c277/comments",
+    "author": {
+      "login": "jczuchnowski",
+      "id": 1301520,
+      "node_id": "MDQ6VXNlcjEzMDE1MjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1301520?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jczuchnowski",
+      "html_url": "https://github.com/jczuchnowski",
+      "followers_url": "https://api.github.com/users/jczuchnowski/followers",
+      "following_url": "https://api.github.com/users/jczuchnowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jczuchnowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jczuchnowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jczuchnowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/jczuchnowski/orgs",
+      "repos_url": "https://api.github.com/users/jczuchnowski/repos",
+      "events_url": "https://api.github.com/users/jczuchnowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jczuchnowski/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a000b2fa1d001ed3946000b78d4a7395a7f5f744",
+        "url": "https://api.github.com/repos/zio/zio/commits/a000b2fa1d001ed3946000b78d4a7395a7f5f744",
+        "html_url": "https://github.com/zio/zio/commit/a000b2fa1d001ed3946000b78d4a7395a7f5f744"
+      }
+    ]
+  },
+  {
+    "sha": "a000b2fa1d001ed3946000b78d4a7395a7f5f744",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmEwMDBiMmZhMWQwMDFlZDM5NDYwMDBiNzhkNGE3Mzk1YTdmNWY3NDQ=",
+    "commit": {
+      "author": {
+        "name": "Loïc Descotte",
+        "email": "loic.descotte@gmail.com",
+        "date": "2020-09-25T11:39:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-25T11:39:31Z"
+      },
+      "message": "Add Kaizen Solutions to Adopters (#4241)",
+      "tree": {
+        "sha": "882aca2a6aea3ff053f50497177d6b64c64e522b",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/882aca2a6aea3ff053f50497177d6b64c64e522b"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/a000b2fa1d001ed3946000b78d4a7395a7f5f744",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfbdb0CRBK7hj4Ov3rIwAAdHIIACoYWjmFQ5fgBefnl6ln0bZg\nTlxucoIVXq3ddtHwSEl1sj+lkIFFUzs4TJs0ngQY7E8upB00rqCMgkpgyQEoNjTi\nDPkvS09r3JXiFXzl/HFw5ZBM/83B+iTUZchwnosrROjX9JFxw8mYtgfCgAIsAFqk\nrGDxS3yicoerykdbPcXTfWqmvcV4rAN3nLqilBdocmcx9OLcVdSX7wTDwIx6GA/l\n7LfgA8trpjafmoNmwPpawCd5xdNnnzflMWnoOpZgBwTxy103OZiW830+uQvTpulH\nTnlHAWnQ+E1rtSmIqeAjKslbeDpiTo/y8WS4y7YXxE+Fz1Gx8SydK6WHEzKyZjk=\n=uawd\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 882aca2a6aea3ff053f50497177d6b64c64e522b\nparent 37e60be54907f6100de27fead69d82aa8072f033\nauthor Loïc Descotte <loic.descotte@gmail.com> 1601033971 +0200\ncommitter GitHub <noreply@github.com> 1601033971 +0300\n\nAdd Kaizen Solutions to Adopters (#4241)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/a000b2fa1d001ed3946000b78d4a7395a7f5f744",
+    "html_url": "https://github.com/zio/zio/commit/a000b2fa1d001ed3946000b78d4a7395a7f5f744",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/a000b2fa1d001ed3946000b78d4a7395a7f5f744/comments",
+    "author": {
+      "login": "loicdescotte",
+      "id": 638150,
+      "node_id": "MDQ6VXNlcjYzODE1MA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/638150?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/loicdescotte",
+      "html_url": "https://github.com/loicdescotte",
+      "followers_url": "https://api.github.com/users/loicdescotte/followers",
+      "following_url": "https://api.github.com/users/loicdescotte/following{/other_user}",
+      "gists_url": "https://api.github.com/users/loicdescotte/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/loicdescotte/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/loicdescotte/subscriptions",
+      "organizations_url": "https://api.github.com/users/loicdescotte/orgs",
+      "repos_url": "https://api.github.com/users/loicdescotte/repos",
+      "events_url": "https://api.github.com/users/loicdescotte/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/loicdescotte/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "37e60be54907f6100de27fead69d82aa8072f033",
+        "url": "https://api.github.com/repos/zio/zio/commits/37e60be54907f6100de27fead69d82aa8072f033",
+        "html_url": "https://github.com/zio/zio/commit/37e60be54907f6100de27fead69d82aa8072f033"
+      }
+    ]
+  },
+  {
+    "sha": "37e60be54907f6100de27fead69d82aa8072f033",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjM3ZTYwYmU1NDkwN2Y2MTAwZGUyN2ZlYWQ2OWQ4MmFhODA3MmYwMzM=",
+    "commit": {
+      "author": {
+        "name": "Adam Fraser",
+        "email": "adam.fraser@gmail.com",
+        "date": "2020-09-25T02:29:38Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-25T02:29:38Z"
+      },
+      "message": "Update Dependencies (#4235)\n\n* resolve conflicts\r\n\r\n* update dependencies\r\n\r\n* don't update reflect",
+      "tree": {
+        "sha": "61b11bbd71d0bb7322299afc4b76f67ef738646b",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/61b11bbd71d0bb7322299afc4b76f67ef738646b"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/37e60be54907f6100de27fead69d82aa8072f033",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfbVYSCRBK7hj4Ov3rIwAAdHIIAKjS2+rj3L/JnV9s24dYw4Za\nh+8p0Y/GPriEiehsoZ4DEeYf8cuLmKgWmiltZXmQ3aAB/J0q7h+ME3am7eo0C7og\nr4pBIPxtJVmNip7E2J6jYvP1xwzvho+d95X+QYpRZ7VvaBHGhdR+H6rRkZg3CxiJ\n0gwaMgw8w/afO+p4iKMt55YExNpwZcd9ysltoLky6Y5nldHht1YjoeY+dqmfbBzX\ng88yvB0qekULWY3VzZsH2Of02isUrzA/JsidT7i23hSJX64IDCvvte55v/ThkzRE\nDcXNFNyhuIj+etX3mio3ZZ5laGEqjNtfK9DhBO6jyboYBdc9EMnJPwvu/mSkuJw=\n=EQaz\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 61b11bbd71d0bb7322299afc4b76f67ef738646b\nparent 095ffe043531c9c906df401e8869fff276d6aa5e\nauthor Adam Fraser <adam.fraser@gmail.com> 1601000978 -0700\ncommitter GitHub <noreply@github.com> 1601000978 -0400\n\nUpdate Dependencies (#4235)\n\n* resolve conflicts\r\n\r\n* update dependencies\r\n\r\n* don't update reflect"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/37e60be54907f6100de27fead69d82aa8072f033",
+    "html_url": "https://github.com/zio/zio/commit/37e60be54907f6100de27fead69d82aa8072f033",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/37e60be54907f6100de27fead69d82aa8072f033/comments",
+    "author": {
+      "login": "adamgfraser",
+      "id": 20825463,
+      "node_id": "MDQ6VXNlcjIwODI1NDYz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20825463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamgfraser",
+      "html_url": "https://github.com/adamgfraser",
+      "followers_url": "https://api.github.com/users/adamgfraser/followers",
+      "following_url": "https://api.github.com/users/adamgfraser/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamgfraser/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamgfraser/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamgfraser/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamgfraser/orgs",
+      "repos_url": "https://api.github.com/users/adamgfraser/repos",
+      "events_url": "https://api.github.com/users/adamgfraser/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamgfraser/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "095ffe043531c9c906df401e8869fff276d6aa5e",
+        "url": "https://api.github.com/repos/zio/zio/commits/095ffe043531c9c906df401e8869fff276d6aa5e",
+        "html_url": "https://github.com/zio/zio/commit/095ffe043531c9c906df401e8869fff276d6aa5e"
+      }
+    ]
+  },
+  {
+    "sha": "095ffe043531c9c906df401e8869fff276d6aa5e",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjA5NWZmZTA0MzUzMWM5YzkwNmRmNDAxZTg4NjlmZmYyNzZkNmFhNWU=",
+    "commit": {
+      "author": {
+        "name": "Leszek Gruchała",
+        "email": "leszek@gruchala.eu",
+        "date": "2020-09-24T15:52:52Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T15:52:52Z"
+      },
+      "message": "Add example of testing layered effects with Clock (#4219)\n\n* Add example of testing layered effects with Clock\r\n\r\n* Update the example\r\n\r\n* Fix mdoc compilation",
+      "tree": {
+        "sha": "8e5288d60dab4a52dac218f387b9623bdfcbc56d",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/8e5288d60dab4a52dac218f387b9623bdfcbc56d"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/095ffe043531c9c906df401e8869fff276d6aa5e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfbMDUCRBK7hj4Ov3rIwAAdHIIAJ12Z6ZndLtF3PwZC2t7qaVe\nhpBY1rOV5djWMhN7ixQ3CPChTtCjbbn1honRKse2SuGQtzJRcqHp4f1StYduHBMt\ndL/F/JhDJxqyBNOINMRAk1zJR2sw/EZpYxvADxO0TwXa3oMXeZvz27MyerhaaHCH\n6SkGOP6hFN9I2XI8tudzfb7Z5peA7nJNqrK5KVYjU5ncJT5uJTqAwkIHZaqAxJxM\nvyecy3xaVtfOhLm6xvnq+UibKstGgMa2cIJW5oor3mshdIq+ZPrkbVnRxiTnzlDr\n5VOYsMf9WZKa97e5nq2SnRyqsVK0q6BMNIhWpkyX4HKUKhmwEI9hVvVtnmMcOQE=\n=iVdR\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8e5288d60dab4a52dac218f387b9623bdfcbc56d\nparent d11569d93c439329de6caa5f468fc9e51d101f48\nauthor Leszek Gruchała <leszek@gruchala.eu> 1600962772 +0200\ncommitter GitHub <noreply@github.com> 1600962772 -0700\n\nAdd example of testing layered effects with Clock (#4219)\n\n* Add example of testing layered effects with Clock\r\n\r\n* Update the example\r\n\r\n* Fix mdoc compilation"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/095ffe043531c9c906df401e8869fff276d6aa5e",
+    "html_url": "https://github.com/zio/zio/commit/095ffe043531c9c906df401e8869fff276d6aa5e",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/095ffe043531c9c906df401e8869fff276d6aa5e/comments",
+    "author": {
+      "login": "leszekgruchala",
+      "id": 89165,
+      "node_id": "MDQ6VXNlcjg5MTY1",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/89165?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/leszekgruchala",
+      "html_url": "https://github.com/leszekgruchala",
+      "followers_url": "https://api.github.com/users/leszekgruchala/followers",
+      "following_url": "https://api.github.com/users/leszekgruchala/following{/other_user}",
+      "gists_url": "https://api.github.com/users/leszekgruchala/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/leszekgruchala/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/leszekgruchala/subscriptions",
+      "organizations_url": "https://api.github.com/users/leszekgruchala/orgs",
+      "repos_url": "https://api.github.com/users/leszekgruchala/repos",
+      "events_url": "https://api.github.com/users/leszekgruchala/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/leszekgruchala/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d11569d93c439329de6caa5f468fc9e51d101f48",
+        "url": "https://api.github.com/repos/zio/zio/commits/d11569d93c439329de6caa5f468fc9e51d101f48",
+        "html_url": "https://github.com/zio/zio/commit/d11569d93c439329de6caa5f468fc9e51d101f48"
+      }
+    ]
+  },
+  {
+    "sha": "d11569d93c439329de6caa5f468fc9e51d101f48",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmQxMTU2OWQ5M2M0MzkzMjlkZTZjYWE1ZjQ2OGZjOWU1MWQxMDFmNDg=",
+    "commit": {
+      "author": {
+        "name": "Scala Steward",
+        "email": "43047562+scala-steward@users.noreply.github.com",
+        "date": "2020-09-24T13:33:34Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T13:33:34Z"
+      },
+      "message": "Update zio-interop-twitter to 20.9.0.0 (#4239)",
+      "tree": {
+        "sha": "9223d7f16a2765f0a6414f699cf52ef554e06889",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/9223d7f16a2765f0a6414f699cf52ef554e06889"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/d11569d93c439329de6caa5f468fc9e51d101f48",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfbKAuCRBK7hj4Ov3rIwAAdHIIAJoolPxSC/1v7OtNaoBXkaW8\niNz4HuM6StlNfhNMRtDq6yLvIuN7sVKxz6lG68sIsqdcWg77dDIs7n2rS3pHHHAb\n2z02O9VvXDE6lC9JXn3s/ylq3SN8S6dYXFSPD8k9bXOvl9Z1xCdU3jd0CjyP63+m\nJhank5eHDYez9SZspmKUNg24g7eZsDtoGQ1KLUC3DQJBd2Q+GpTp9dFmdsTBv2ci\npM0wD6f6Qi1fjxbVRD34DjlyzSk/YPhFGQA6+Ff+XKZcuv4TCdyEMCimi1lLKAtr\ncjR3ty2GdLMvtV0xJxeB+7EES9xlEDk76ZTAlDNmHhIq8cdm8LJ/+oTcY5gvn4A=\n=WF6o\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9223d7f16a2765f0a6414f699cf52ef554e06889\nparent 338e6dbef79d8a1d8cd596e15e7928df2ac1c07a\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1600954414 +0200\ncommitter GitHub <noreply@github.com> 1600954414 -0700\n\nUpdate zio-interop-twitter to 20.9.0.0 (#4239)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/d11569d93c439329de6caa5f468fc9e51d101f48",
+    "html_url": "https://github.com/zio/zio/commit/d11569d93c439329de6caa5f468fc9e51d101f48",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/d11569d93c439329de6caa5f468fc9e51d101f48/comments",
+    "author": {
+      "login": "scala-steward",
+      "id": 43047562,
+      "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scala-steward",
+      "html_url": "https://github.com/scala-steward",
+      "followers_url": "https://api.github.com/users/scala-steward/followers",
+      "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+      "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+      "repos_url": "https://api.github.com/users/scala-steward/repos",
+      "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "338e6dbef79d8a1d8cd596e15e7928df2ac1c07a",
+        "url": "https://api.github.com/repos/zio/zio/commits/338e6dbef79d8a1d8cd596e15e7928df2ac1c07a",
+        "html_url": "https://github.com/zio/zio/commit/338e6dbef79d8a1d8cd596e15e7928df2ac1c07a"
+      }
+    ]
+  },
+  {
+    "sha": "338e6dbef79d8a1d8cd596e15e7928df2ac1c07a",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjMzOGU2ZGJlZjc5ZDhhMWQ4Y2Q1OTZlMTVlNzkyOGRmMmFjMWMwN2E=",
+    "commit": {
+      "author": {
+        "name": "Adam Fraser",
+        "email": "adam.fraser@gmail.com",
+        "date": "2020-09-24T05:33:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T05:33:20Z"
+      },
+      "message": "ZIO Test: Evaluate Effects Sequentially In Gen#zipWith (#4238)\n\n* resolve conflicts\r\n\r\n* evaluate generators sequentially\r\n\r\n* place strategy's parameter list first",
+      "tree": {
+        "sha": "3cc7f47b74467ea825a10dda412085bcba237107",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/3cc7f47b74467ea825a10dda412085bcba237107"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/338e6dbef79d8a1d8cd596e15e7928df2ac1c07a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfbC+gCRBK7hj4Ov3rIwAAdHIIABm2ZZsegD40ilyzkisZ3t6a\n/CcToocaCHAnWBXOsjpL18zMZ7iMbq8IekJMVWXV12/I6lhz7nR39Qdt0+S9gdrS\nLcqQfppleplil/lVtKCoCTy3XIyboAaB6TgEoZLzmEebE+4S2sJoJMSiXA5ndmd+\nVLl4qk1Pa+iIeQh7a4h7SbLWkHolqeJ+L69DIZmKdjfSDn06dnYp8eQzMWDguO3i\nc5eOwKjvyhB9Dp8vqy4N5OcZYaqhRZP0duICmqzM7UlVQwIhix8LKeryMYvpkNQQ\niGNwsYE6gc9KFtCMfz2I/3FyG3+kO3CICPhp+YVNVnWYzhi9H9lom4L18IxG4yA=\n=tQqX\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3cc7f47b74467ea825a10dda412085bcba237107\nparent 649f6385b5af331c70f812b55c661588f2a7d6d0\nauthor Adam Fraser <adam.fraser@gmail.com> 1600925600 -0700\ncommitter GitHub <noreply@github.com> 1600925600 -0700\n\nZIO Test: Evaluate Effects Sequentially In Gen#zipWith (#4238)\n\n* resolve conflicts\r\n\r\n* evaluate generators sequentially\r\n\r\n* place strategy's parameter list first"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/338e6dbef79d8a1d8cd596e15e7928df2ac1c07a",
+    "html_url": "https://github.com/zio/zio/commit/338e6dbef79d8a1d8cd596e15e7928df2ac1c07a",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/338e6dbef79d8a1d8cd596e15e7928df2ac1c07a/comments",
+    "author": {
+      "login": "adamgfraser",
+      "id": 20825463,
+      "node_id": "MDQ6VXNlcjIwODI1NDYz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20825463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamgfraser",
+      "html_url": "https://github.com/adamgfraser",
+      "followers_url": "https://api.github.com/users/adamgfraser/followers",
+      "following_url": "https://api.github.com/users/adamgfraser/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamgfraser/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamgfraser/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamgfraser/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamgfraser/orgs",
+      "repos_url": "https://api.github.com/users/adamgfraser/repos",
+      "events_url": "https://api.github.com/users/adamgfraser/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamgfraser/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "649f6385b5af331c70f812b55c661588f2a7d6d0",
+        "url": "https://api.github.com/repos/zio/zio/commits/649f6385b5af331c70f812b55c661588f2a7d6d0",
+        "html_url": "https://github.com/zio/zio/commit/649f6385b5af331c70f812b55c661588f2a7d6d0"
+      }
+    ]
+  },
+  {
+    "sha": "649f6385b5af331c70f812b55c661588f2a7d6d0",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjY0OWY2Mzg1YjVhZjMzMWM3MGY4MTJiNTVjNjYxNTg4ZjJhN2Q2ZDA=",
+    "commit": {
+      "author": {
+        "name": "Adam Fraser",
+        "email": "adam.fraser@gmail.com",
+        "date": "2020-09-24T04:30:51Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T04:30:51Z"
+      },
+      "message": "Use SetRemoveOnCanceledPolicy In Scheduler To Prevent Memory Leaks (#4237)\n\n* resolve conflicts\r\n\r\n* set removeOnCancelPolicy\r\n\r\n* remove debug statement",
+      "tree": {
+        "sha": "1b10f57469d10c14132cdb28417b65f0a8347659",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/1b10f57469d10c14132cdb28417b65f0a8347659"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/649f6385b5af331c70f812b55c661588f2a7d6d0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfbCD7CRBK7hj4Ov3rIwAAdHIIAJfAIC9bdIZprrOUva3FsG8i\ndrGZ8m0PtFAMxXNxAJnjsKxNy0TQMvbWladL4HIwK9wiyg0Ejdq88rSAUzwU0RvV\nk3DXtv6wVT3QzweXw7+PvBvBrL+gW2YfsxKlsVKlogiUCBLs644tHIt8qsXCtyo9\nWytx7t/SLium5gEAzJXpBXSI3zpWWTquQV1CJPwCuBdB11sfEondF8LvtDejQoTH\nh5iz2MqM5KM5TzbKtNwCUb0AIbPLFUj2t8cGOXAUphFyC1ygZxCQWHKVJ9W7Pg9D\nu/JM+QjDbBeEKqzb7D+QRYUVyRTmsCN2UlGKcBfCyCwyePc6D8HrnKTaLPTk7n4=\n=12Re\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1b10f57469d10c14132cdb28417b65f0a8347659\nparent a3a71dbb323e1968eef069809b779004ff8e3387\nauthor Adam Fraser <adam.fraser@gmail.com> 1600921851 -0700\ncommitter GitHub <noreply@github.com> 1600921851 -0700\n\nUse SetRemoveOnCanceledPolicy In Scheduler To Prevent Memory Leaks (#4237)\n\n* resolve conflicts\r\n\r\n* set removeOnCancelPolicy\r\n\r\n* remove debug statement"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/649f6385b5af331c70f812b55c661588f2a7d6d0",
+    "html_url": "https://github.com/zio/zio/commit/649f6385b5af331c70f812b55c661588f2a7d6d0",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/649f6385b5af331c70f812b55c661588f2a7d6d0/comments",
+    "author": {
+      "login": "adamgfraser",
+      "id": 20825463,
+      "node_id": "MDQ6VXNlcjIwODI1NDYz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20825463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamgfraser",
+      "html_url": "https://github.com/adamgfraser",
+      "followers_url": "https://api.github.com/users/adamgfraser/followers",
+      "following_url": "https://api.github.com/users/adamgfraser/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamgfraser/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamgfraser/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamgfraser/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamgfraser/orgs",
+      "repos_url": "https://api.github.com/users/adamgfraser/repos",
+      "events_url": "https://api.github.com/users/adamgfraser/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamgfraser/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a3a71dbb323e1968eef069809b779004ff8e3387",
+        "url": "https://api.github.com/repos/zio/zio/commits/a3a71dbb323e1968eef069809b779004ff8e3387",
+        "html_url": "https://github.com/zio/zio/commit/a3a71dbb323e1968eef069809b779004ff8e3387"
+      }
+    ]
+  },
+  {
+    "sha": "a3a71dbb323e1968eef069809b779004ff8e3387",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmEzYTcxZGJiMzIzZTE5NjhlZWYwNjk4MDliNzc5MDA0ZmY4ZTMzODc=",
+    "commit": {
+      "author": {
+        "name": "Adam Fraser",
+        "email": "adam.fraser@gmail.com",
+        "date": "2020-09-24T04:28:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T04:28:35Z"
+      },
+      "message": "Delete Gen.usASCII (#4236)\n\n* resolve conflicts\r\n\r\n* delete Gen.usASCII",
+      "tree": {
+        "sha": "14669d90e1a389f9c1c691eac5c5c28ea6e0aeb0",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/14669d90e1a389f9c1c691eac5c5c28ea6e0aeb0"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/a3a71dbb323e1968eef069809b779004ff8e3387",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfbCBzCRBK7hj4Ov3rIwAAdHIIACZciPHV5u0GGEM2FAFfSYp8\nCV6JNFhAQxc08XFlcfgNg/kZCqxORqnE7UgaJDrRFLnvLjcF1otaz+ZtVVM3fCaU\nboDfOHFdsy1qpCRycO/Slckn6VNiUW/VFi0YuUqFp0i6bXp9zdwJTDCD08KkCFDr\nShSKcO4s0nb+CWF/l4P0kfTR23oojldZy+c7N3A9Y+vEXOZOj4Y93gAvRKjGlZX3\nTV6qGtxRfLhR0TDfMAqtKutz4Yosyj/RTQQT9FwGlAPSdn3wPcGIp4StGSuJAEhx\nzi7xfnUIF79e1ivkJTEi7E9AVpbtxgzy9XR7j//TxdFnJVRt0GSecEBlRL7RvAE=\n=vcfC\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 14669d90e1a389f9c1c691eac5c5c28ea6e0aeb0\nparent ac283e64ba080a2097e1db49806c1162c67a5ba0\nauthor Adam Fraser <adam.fraser@gmail.com> 1600921715 -0700\ncommitter GitHub <noreply@github.com> 1600921715 -0700\n\nDelete Gen.usASCII (#4236)\n\n* resolve conflicts\r\n\r\n* delete Gen.usASCII"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/a3a71dbb323e1968eef069809b779004ff8e3387",
+    "html_url": "https://github.com/zio/zio/commit/a3a71dbb323e1968eef069809b779004ff8e3387",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/a3a71dbb323e1968eef069809b779004ff8e3387/comments",
+    "author": {
+      "login": "adamgfraser",
+      "id": 20825463,
+      "node_id": "MDQ6VXNlcjIwODI1NDYz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20825463?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamgfraser",
+      "html_url": "https://github.com/adamgfraser",
+      "followers_url": "https://api.github.com/users/adamgfraser/followers",
+      "following_url": "https://api.github.com/users/adamgfraser/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamgfraser/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamgfraser/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamgfraser/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamgfraser/orgs",
+      "repos_url": "https://api.github.com/users/adamgfraser/repos",
+      "events_url": "https://api.github.com/users/adamgfraser/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamgfraser/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ac283e64ba080a2097e1db49806c1162c67a5ba0",
+        "url": "https://api.github.com/repos/zio/zio/commits/ac283e64ba080a2097e1db49806c1162c67a5ba0",
+        "html_url": "https://github.com/zio/zio/commit/ac283e64ba080a2097e1db49806c1162c67a5ba0"
+      }
+    ]
+  },
+  {
+    "sha": "ac283e64ba080a2097e1db49806c1162c67a5ba0",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmFjMjgzZTY0YmEwODBhMjA5N2UxZGI0OTgwNmMxMTYyYzY3YTViYTA=",
+    "commit": {
+      "author": {
+        "name": "Scala Steward",
+        "email": "43047562+scala-steward@users.noreply.github.com",
+        "date": "2020-09-24T01:03:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T01:03:35Z"
+      },
+      "message": "Update sbt-mdoc to 2.2.9 (#4216)",
+      "tree": {
+        "sha": "b23b8804a654b6fb479543553995307e5cb7f732",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/b23b8804a654b6fb479543553995307e5cb7f732"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/ac283e64ba080a2097e1db49806c1162c67a5ba0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfa/BnCRBK7hj4Ov3rIwAAdHIIAFZwlQVPlP/1d9zINw6l9t/I\nFnYYAlKd72Hd4sdwJQvuS/Ha63gutJnMKw9Wx6a4dEjgpHcJrzVtiUBHjgjvGizD\nTEXqShk2IeHI2od8YyhIJ6fQQttAf3M3aAtR8fyXni9c0a7aI63WV7QYorvazoIY\nHKHrWcBk5yyaK35+40DzShVJZvlumsmID4yNZ2wmCYijqoSFaSu8peCJaQKN63aq\nN6kOb1qcjy7nF8UdUihOmYZrq07/rg691PHTKLiG9HZyp12DghiPdglPeaPdwbUf\nviW2okwEm1AcmgU/HczlCzTH5rBLVc/lvdNqlx5PSdMTMXCgY1kIsnSpIpmmVZQ=\n=Us8R\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b23b8804a654b6fb479543553995307e5cb7f732\nparent 6a23f36b3e6f54f40ac10ae2d12bc5e5865cd338\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1600909415 +0200\ncommitter GitHub <noreply@github.com> 1600909415 -0700\n\nUpdate sbt-mdoc to 2.2.9 (#4216)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/ac283e64ba080a2097e1db49806c1162c67a5ba0",
+    "html_url": "https://github.com/zio/zio/commit/ac283e64ba080a2097e1db49806c1162c67a5ba0",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/ac283e64ba080a2097e1db49806c1162c67a5ba0/comments",
+    "author": {
+      "login": "scala-steward",
+      "id": 43047562,
+      "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scala-steward",
+      "html_url": "https://github.com/scala-steward",
+      "followers_url": "https://api.github.com/users/scala-steward/followers",
+      "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+      "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+      "repos_url": "https://api.github.com/users/scala-steward/repos",
+      "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6a23f36b3e6f54f40ac10ae2d12bc5e5865cd338",
+        "url": "https://api.github.com/repos/zio/zio/commits/6a23f36b3e6f54f40ac10ae2d12bc5e5865cd338",
+        "html_url": "https://github.com/zio/zio/commit/6a23f36b3e6f54f40ac10ae2d12bc5e5865cd338"
+      }
+    ]
+  },
+  {
+    "sha": "6a23f36b3e6f54f40ac10ae2d12bc5e5865cd338",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjZhMjNmMzZiM2U2ZjU0ZjQwYWMxMGFlMmQxMmJjNWU1ODY1Y2QzMzg=",
+    "commit": {
+      "author": {
+        "name": "Piotr Paradziński",
+        "email": "piotr.paradzinski@scalac.io",
+        "date": "2020-09-24T00:19:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T00:19:54Z"
+      },
+      "message": "[WIP] add LawfulF and LawsF for DivariantFix (#4220)\n\n* add support for Divariant laws\r\n\r\n* fix GenF2 generaor\r\n\r\n* implement basic scafollding for law testing for [-_,+_], need to figure out shape of Divariant tests\r\n\r\n* implement case class that support Divariant laws",
+      "tree": {
+        "sha": "22868e83d3ee9fdd3d4fb6c34f90ea86c785231f",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/22868e83d3ee9fdd3d4fb6c34f90ea86c785231f"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/6a23f36b3e6f54f40ac10ae2d12bc5e5865cd338",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfa+YqCRBK7hj4Ov3rIwAAdHIIAFNvqk1ambI5CYWt8VTnyCcl\nh5PjIFmDO3wknpvMblySxnLX5zDsfDkinMnNDC3VF0xjYhqzcfkNL6X9+YwNUTkL\nEREKbXsKtAXiR9ledIyYpXWp4K7Hjc711TmiOaP2lFsVRVDVNbeCJDd0dRYin97b\n9IlI43SLuy8HeAvfk+tlpPefYg1Xm3pJthUP1DCxNvuRgEMfP6hF941JNA7jrWRN\nKXH+ZOHC7Ynd7VhvqHOQU5p7/8ETXgX8e+WsQF+9RCbrPR+Hf8pb80z0j7bna6oq\nJy05DETT0JT/DUTmgsNCWugnrAKSjWYjymVqCoqhnPWpiCrrT6TQGyXkZidOoxg=\n=w6kI\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 22868e83d3ee9fdd3d4fb6c34f90ea86c785231f\nparent a30d5b15f6d232a5b770a4d420ab6063418c4460\nauthor Piotr Paradziński <piotr.paradzinski@scalac.io> 1600906794 +0200\ncommitter GitHub <noreply@github.com> 1600906794 -0700\n\n[WIP] add LawfulF and LawsF for DivariantFix (#4220)\n\n* add support for Divariant laws\r\n\r\n* fix GenF2 generaor\r\n\r\n* implement basic scafollding for law testing for [-_,+_], need to figure out shape of Divariant tests\r\n\r\n* implement case class that support Divariant laws"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/6a23f36b3e6f54f40ac10ae2d12bc5e5865cd338",
+    "html_url": "https://github.com/zio/zio/commit/6a23f36b3e6f54f40ac10ae2d12bc5e5865cd338",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/6a23f36b3e6f54f40ac10ae2d12bc5e5865cd338/comments",
+    "author": {
+      "login": "lemastero",
+      "id": 10901543,
+      "node_id": "MDQ6VXNlcjEwOTAxNTQz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10901543?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lemastero",
+      "html_url": "https://github.com/lemastero",
+      "followers_url": "https://api.github.com/users/lemastero/followers",
+      "following_url": "https://api.github.com/users/lemastero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lemastero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lemastero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lemastero/subscriptions",
+      "organizations_url": "https://api.github.com/users/lemastero/orgs",
+      "repos_url": "https://api.github.com/users/lemastero/repos",
+      "events_url": "https://api.github.com/users/lemastero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lemastero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a30d5b15f6d232a5b770a4d420ab6063418c4460",
+        "url": "https://api.github.com/repos/zio/zio/commits/a30d5b15f6d232a5b770a4d420ab6063418c4460",
+        "html_url": "https://github.com/zio/zio/commit/a30d5b15f6d232a5b770a4d420ab6063418c4460"
+      }
+    ]
+  },
+  {
+    "sha": "a30d5b15f6d232a5b770a4d420ab6063418c4460",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmEzMGQ1YjE1ZjZkMjMyYTViNzcwYTRkNDIwYWI2MDYzNDE4YzQ0NjA=",
+    "commit": {
+      "author": {
+        "name": "Scala Steward",
+        "email": "43047562+scala-steward@users.noreply.github.com",
+        "date": "2020-09-24T00:17:56Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T00:17:56Z"
+      },
+      "message": "Update asm to 9.0 (#4225)",
+      "tree": {
+        "sha": "b8635af7b78983dd414b4b401c44bb0fd6ea671d",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/b8635af7b78983dd414b4b401c44bb0fd6ea671d"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/a30d5b15f6d232a5b770a4d420ab6063418c4460",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfa+W0CRBK7hj4Ov3rIwAAdHIIADcEVQHe686UF0Z/ovIjMJcW\nQysFkl2+57ZvduwijTkKt8b4hw/SXo/Eu7Gpj3tEtRAyQY9B79ll+377xHugFJP0\nwnWl/u314fUV4QCIH6womZV5FGcIkSeUQLw0mhPgUIe8iNJQD9xqOeaHXGym99WB\n1lFvZNehqiSdRWm6qugoutWZk6dvOIq+NQBkdzOIEmrK2NwB/qyDQNpgyEMhZWZP\nZhNJv4lRQOTY9AxmIfB9CrH4X24R4t3KnJcPabiqaV+7e/9gp6SHJofaye9czYCM\nRTlR8azbhBXejjq9jcEtcZ1lzh0q8M/1lBYQNEQe7wdp1On9Ed7NFZQZbKHx1PI=\n=g7Ny\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b8635af7b78983dd414b4b401c44bb0fd6ea671d\nparent 301417d099a2e8b292b46eaa7a2bb347625b1394\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1600906676 +0200\ncommitter GitHub <noreply@github.com> 1600906676 -0700\n\nUpdate asm to 9.0 (#4225)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/a30d5b15f6d232a5b770a4d420ab6063418c4460",
+    "html_url": "https://github.com/zio/zio/commit/a30d5b15f6d232a5b770a4d420ab6063418c4460",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/a30d5b15f6d232a5b770a4d420ab6063418c4460/comments",
+    "author": {
+      "login": "scala-steward",
+      "id": 43047562,
+      "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scala-steward",
+      "html_url": "https://github.com/scala-steward",
+      "followers_url": "https://api.github.com/users/scala-steward/followers",
+      "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+      "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+      "repos_url": "https://api.github.com/users/scala-steward/repos",
+      "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "301417d099a2e8b292b46eaa7a2bb347625b1394",
+        "url": "https://api.github.com/repos/zio/zio/commits/301417d099a2e8b292b46eaa7a2bb347625b1394",
+        "html_url": "https://github.com/zio/zio/commit/301417d099a2e8b292b46eaa7a2bb347625b1394"
+      }
+    ]
+  },
+  {
+    "sha": "301417d099a2e8b292b46eaa7a2bb347625b1394",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjMwMTQxN2QwOTlhMmU4YjI5MmI0NmVhYTdhMmJiMzQ3NjI1YjEzOTQ=",
+    "commit": {
+      "author": {
+        "name": "Scala Steward",
+        "email": "43047562+scala-steward@users.noreply.github.com",
+        "date": "2020-09-24T00:17:11Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T00:17:11Z"
+      },
+      "message": "Update sbt-scalafix to 0.9.21 (#4226)",
+      "tree": {
+        "sha": "c4ebdd5e4d6bd36467fede7948e381cd3a0b1a92",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/c4ebdd5e4d6bd36467fede7948e381cd3a0b1a92"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/301417d099a2e8b292b46eaa7a2bb347625b1394",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfa+WHCRBK7hj4Ov3rIwAAdHIIAIw1BEMq27HqMCGRvKrT1dBI\n2z0RzcOo4DRyDpUV6g4e3/OUOrD1cHJieruIXsWhJRqSJL30nrSvJQMAbVZhLvax\nHIuq/VPbnMbtztcg58Y3Wu6AB2g42YV8IfFg2Ltj3e8u3qdufmpvq9OBfe6abADr\nxEkJUpoGnBMfPsLb8/8I4591AEZ7hpWUcAxSHYK7NPqt40ycQILxtoW8oCydxVYH\nGg5Szt1bn+H+KnrsWJ7WE/AgyhJ5Jc0OmePjzz7BZrsFjbZotEYTKwfuJRvkQ96L\niz7eKUFREyZYZflfidS8nCF6MmHkZ3tcxNQ6GgfsIDXY+FPWubwS1/Er8gOxbUw=\n=54mJ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c4ebdd5e4d6bd36467fede7948e381cd3a0b1a92\nparent 95345e7cdfb2c60943b5e9404eb8e21096d4755d\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1600906631 +0200\ncommitter GitHub <noreply@github.com> 1600906631 -0700\n\nUpdate sbt-scalafix to 0.9.21 (#4226)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/301417d099a2e8b292b46eaa7a2bb347625b1394",
+    "html_url": "https://github.com/zio/zio/commit/301417d099a2e8b292b46eaa7a2bb347625b1394",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/301417d099a2e8b292b46eaa7a2bb347625b1394/comments",
+    "author": {
+      "login": "scala-steward",
+      "id": 43047562,
+      "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scala-steward",
+      "html_url": "https://github.com/scala-steward",
+      "followers_url": "https://api.github.com/users/scala-steward/followers",
+      "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+      "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+      "repos_url": "https://api.github.com/users/scala-steward/repos",
+      "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "95345e7cdfb2c60943b5e9404eb8e21096d4755d",
+        "url": "https://api.github.com/repos/zio/zio/commits/95345e7cdfb2c60943b5e9404eb8e21096d4755d",
+        "html_url": "https://github.com/zio/zio/commit/95345e7cdfb2c60943b5e9404eb8e21096d4755d"
+      }
+    ]
+  },
+  {
+    "sha": "95345e7cdfb2c60943b5e9404eb8e21096d4755d",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0Ojk1MzQ1ZTdjZGZiMmM2MDk0M2I1ZTk0MDRlYjhlMjEwOTZkNDc1NWQ=",
+    "commit": {
+      "author": {
+        "name": "Scala Steward",
+        "email": "43047562+scala-steward@users.noreply.github.com",
+        "date": "2020-09-24T00:16:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T00:16:30Z"
+      },
+      "message": "Update util-core to 20.9.0 (#4231)",
+      "tree": {
+        "sha": "9cf401bec855462420fbbffb7f2fe3c606c99e68",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/9cf401bec855462420fbbffb7f2fe3c606c99e68"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/95345e7cdfb2c60943b5e9404eb8e21096d4755d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfa+VeCRBK7hj4Ov3rIwAAdHIIAA/csdJunwgkztM6h/WfaoLL\n15GbngKkzJrJ36D9UC5u8EhJJcYCZ23LldapH+MpnWhdsfK5bjAZNJZbkLOQdOCE\nTvMP8bBUNwv/DMZsYEENYXbDApvhmRsxuF4qlFVyTMF1gLo7DdU5RzyC6kUvSTcB\ncxWeB47eKcQtYI2J156ynYD+0a3ngywIh+5jvj/kvajWqJtPlNLCq60gRZVDY/rH\nN2k5t0jbh4NuCuGLfFJIusXx05tTrW8AAbJyKDzegOmPQckhrsTeOzOTagNeo8jD\n2DFDU9QG7fAsAiccMFzjVhi1HaYH3nO+VrZiOs5XK8mQ0QmlmlbvHF0zNCX1eP0=\n=DDsN\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9cf401bec855462420fbbffb7f2fe3c606c99e68\nparent b1f7656ebb2c1316c4a335fadabc5f0a012b1795\nauthor Scala Steward <43047562+scala-steward@users.noreply.github.com> 1600906590 +0200\ncommitter GitHub <noreply@github.com> 1600906590 -0700\n\nUpdate util-core to 20.9.0 (#4231)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/95345e7cdfb2c60943b5e9404eb8e21096d4755d",
+    "html_url": "https://github.com/zio/zio/commit/95345e7cdfb2c60943b5e9404eb8e21096d4755d",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/95345e7cdfb2c60943b5e9404eb8e21096d4755d/comments",
+    "author": {
+      "login": "scala-steward",
+      "id": 43047562,
+      "node_id": "MDQ6VXNlcjQzMDQ3NTYy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43047562?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scala-steward",
+      "html_url": "https://github.com/scala-steward",
+      "followers_url": "https://api.github.com/users/scala-steward/followers",
+      "following_url": "https://api.github.com/users/scala-steward/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scala-steward/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scala-steward/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scala-steward/subscriptions",
+      "organizations_url": "https://api.github.com/users/scala-steward/orgs",
+      "repos_url": "https://api.github.com/users/scala-steward/repos",
+      "events_url": "https://api.github.com/users/scala-steward/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scala-steward/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b1f7656ebb2c1316c4a335fadabc5f0a012b1795",
+        "url": "https://api.github.com/repos/zio/zio/commits/b1f7656ebb2c1316c4a335fadabc5f0a012b1795",
+        "html_url": "https://github.com/zio/zio/commit/b1f7656ebb2c1316c4a335fadabc5f0a012b1795"
+      }
+    ]
+  },
+  {
+    "sha": "b1f7656ebb2c1316c4a335fadabc5f0a012b1795",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OmIxZjc2NTZlYmIyYzEzMTZjNGEzMzVmYWRhYmM1ZjBhMDEyYjE3OTU=",
+    "commit": {
+      "author": {
+        "name": "Ondra Pelech",
+        "email": "ondra.pelech@gmail.com",
+        "date": "2020-09-24T00:15:08Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-24T00:15:08Z"
+      },
+      "message": "Update Scalafmt and Scalafix rules (#4214)\n\n* Update Scalafmt and Scalafix rules\r\n\r\n* Cleanup\r\n\r\n* Cleanup\r\n\r\n* Cleanup\r\n\r\n* ZSpec[Environment, Failure]\r\n\r\n* fmt",
+      "tree": {
+        "sha": "eb187a8daca557d419483dc65425da76228bd96f",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/eb187a8daca557d419483dc65425da76228bd96f"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/b1f7656ebb2c1316c4a335fadabc5f0a012b1795",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfa+UMCRBK7hj4Ov3rIwAAdHIIAJ2urnbIyzV2I/tQfFvH8Fc5\nq/puQBQJaWrwdteLJTk8nPDJp2pG8PSPsfCeYnNxs2L8QYPM/3Kwu3mYFwarNkuP\nlDjuy0qtbv4FP6rD7GtZIxAOeJY+66SNwx+ZsoSEB542UNxSu1ivRCocHkGjU2FA\nYtLJyDUMHT8Mh3cLBmI0AD0rJ87509hLugB0nydDNuIjzcEuvjdRSx5NQ+Sdtfjs\n86i6KpLEx8qEP6NGzuJa/KEzB+aEgCdXMLWqZlN9aSDS4U1iSP8lj0xtmUEHWiee\nEcKGbbX0HIVw1//q1C8g+rhyU80rjivvCDmICfKNoHZqpUGm9T5bCHOieUU9eK4=\n=LKbZ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree eb187a8daca557d419483dc65425da76228bd96f\nparent 0ff2188b0780005958d9cd190638e6c22a83c077\nauthor Ondra Pelech <ondra.pelech@gmail.com> 1600906508 +0200\ncommitter GitHub <noreply@github.com> 1600906508 -0700\n\nUpdate Scalafmt and Scalafix rules (#4214)\n\n* Update Scalafmt and Scalafix rules\r\n\r\n* Cleanup\r\n\r\n* Cleanup\r\n\r\n* Cleanup\r\n\r\n* ZSpec[Environment, Failure]\r\n\r\n* fmt"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/b1f7656ebb2c1316c4a335fadabc5f0a012b1795",
+    "html_url": "https://github.com/zio/zio/commit/b1f7656ebb2c1316c4a335fadabc5f0a012b1795",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/b1f7656ebb2c1316c4a335fadabc5f0a012b1795/comments",
+    "author": {
+      "login": "sideeffffect",
+      "id": 9019485,
+      "node_id": "MDQ6VXNlcjkwMTk0ODU=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9019485?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sideeffffect",
+      "html_url": "https://github.com/sideeffffect",
+      "followers_url": "https://api.github.com/users/sideeffffect/followers",
+      "following_url": "https://api.github.com/users/sideeffffect/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sideeffffect/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sideeffffect/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sideeffffect/subscriptions",
+      "organizations_url": "https://api.github.com/users/sideeffffect/orgs",
+      "repos_url": "https://api.github.com/users/sideeffffect/repos",
+      "events_url": "https://api.github.com/users/sideeffffect/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sideeffffect/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0ff2188b0780005958d9cd190638e6c22a83c077",
+        "url": "https://api.github.com/repos/zio/zio/commits/0ff2188b0780005958d9cd190638e6c22a83c077",
+        "html_url": "https://github.com/zio/zio/commit/0ff2188b0780005958d9cd190638e6c22a83c077"
+      }
+    ]
+  },
+  {
+    "sha": "0ff2188b0780005958d9cd190638e6c22a83c077",
+    "node_id": "MDY6Q29tbWl0MTM0MDc5ODg0OjBmZjIxODhiMDc4MDAwNTk1OGQ5Y2QxOTA2MzhlNmMyMmE4M2MwNzc=",
+    "commit": {
+      "author": {
+        "name": "svroonland",
+        "email": "svroonland@users.noreply.github.com",
+        "date": "2020-09-23T07:15:06Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2020-09-23T07:15:06Z"
+      },
+      "message": "Add maxChunkSize to ZStream.fromQueue (#4205)\n\n* Add maxChunkSize to ZStream.fromQueue\r\n\r\n* Formatting\r\n\r\n* More formatting\r\n\r\n* Use DefaultChunkSize\r\n\r\n* Formatting",
+      "tree": {
+        "sha": "957c25982cb1eb3e688e71064bdbe13611625222",
+        "url": "https://api.github.com/repos/zio/zio/git/trees/957c25982cb1eb3e688e71064bdbe13611625222"
+      },
+      "url": "https://api.github.com/repos/zio/zio/git/commits/0ff2188b0780005958d9cd190638e6c22a83c077",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfavX7CRBK7hj4Ov3rIwAAdHIIAEIeiAw3xk+y3/JfiOPnieu2\nPeCmoB2jGWCgiVDunomujt7xZsues41sKPgFFZhDbcJlUMO0lpUBow+FuPgXc0Pz\ndVhoZKhVFCUPIXThABmvOkzRONiEhWlXYCl4b6CkX418YFbmp/2wwv7baMNpy7I4\n1exJivvX3POLj76s3jbKo+/n4CcfkzqQPpG7y/5zXhAKkg+6q8ML2LujNddig+jG\nSOgDdpnu2uPWGGBt5ZF6w0z9H7Pb0EQ6sGP6rhpNvOw3Pm1vGtwRmJhJd7midh3O\n7RwVPdisiKHCX+ek64OMqeWePkcnseidMK5Gu5jkfiBq1eGB1Bewq1dJefu8LZM=\n=wa6V\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 957c25982cb1eb3e688e71064bdbe13611625222\nparent 4143ba0fb83b405e5b889d4bd0f380963fba4a97\nauthor svroonland <svroonland@users.noreply.github.com> 1600845306 +0200\ncommitter GitHub <noreply@github.com> 1600845306 +0300\n\nAdd maxChunkSize to ZStream.fromQueue (#4205)\n\n* Add maxChunkSize to ZStream.fromQueue\r\n\r\n* Formatting\r\n\r\n* More formatting\r\n\r\n* Use DefaultChunkSize\r\n\r\n* Formatting"
+      }
+    },
+    "url": "https://api.github.com/repos/zio/zio/commits/0ff2188b0780005958d9cd190638e6c22a83c077",
+    "html_url": "https://github.com/zio/zio/commit/0ff2188b0780005958d9cd190638e6c22a83c077",
+    "comments_url": "https://api.github.com/repos/zio/zio/commits/0ff2188b0780005958d9cd190638e6c22a83c077/comments",
+    "author": {
+      "login": "svroonland",
+      "id": 2190467,
+      "node_id": "MDQ6VXNlcjIxOTA0Njc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2190467?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/svroonland",
+      "html_url": "https://github.com/svroonland",
+      "followers_url": "https://api.github.com/users/svroonland/followers",
+      "following_url": "https://api.github.com/users/svroonland/following{/other_user}",
+      "gists_url": "https://api.github.com/users/svroonland/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/svroonland/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/svroonland/subscriptions",
+      "organizations_url": "https://api.github.com/users/svroonland/orgs",
+      "repos_url": "https://api.github.com/users/svroonland/repos",
+      "events_url": "https://api.github.com/users/svroonland/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/svroonland/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4143ba0fb83b405e5b889d4bd0f380963fba4a97",
+        "url": "https://api.github.com/repos/zio/zio/commits/4143ba0fb83b405e5b889d4bd0f380963fba4a97",
+        "html_url": "https://github.com/zio/zio/commit/4143ba0fb83b405e5b889d4bd0f380963fba4a97"
+      }
+    ]
+  }
+]
