@@ -1,7 +1,7 @@
 import unittest
 import asyncio
-from Dashboard.ui.services import commit_service
-from Dashboard.ui.plot import plot
+from ui.services import commit_service
+from ui.plot import plot
 
 
 class GithubTestCases(unittest.TestCase):
