@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 Example of how to use setuptools
 """
