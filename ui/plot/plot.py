@@ -8,7 +8,7 @@ import io
 
 async def plot_commits(commits, most_commits):
     n = len(commits)
-    num_rows, num_cols = int(n/3)+1, n%3+1
+    num_rows, num_cols = int((n+2)/3), 3
     fig, axis = plt.subplots(num_rows, num_cols, figsize=(13, 20))
     ax = axis.flatten()
 

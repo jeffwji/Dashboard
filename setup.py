@@ -7,15 +7,13 @@ Example of how to use setuptools
 __version__ = "1.0.0"
 
 from setuptools import setup, find_packages
+import unittest
 
-#########
-# autoupgrade 包提供了自动依赖检查，可以让 Dashboard 在安装前检查依赖的 Monitor 的版本，并自动升级到最新版。但是 test 执行在 setup
-# 之前，因此 autoupgrade 包本身无法被自动安装，需要手工安装。安装命令是:
-#
-# $ pip install https://bitbucket.org/jorkar/autoupgrade/get/master.tar.gz
-#
-#from autoupgrade import AutoUpgrade
-#AutoUpgrade("submodule1", index="https://pypi.company.com/repos").upgrade_if_needed()
+
+def get_test_suite():
+    test_loader = unittest.TestLoader()
+    test_suite = test_loader.discover('tests', pattern='test_*.py')
+    return test_suite
 
 
 # Read description from README file.
@@ -29,6 +27,7 @@ def long_description():
 def get_depends():
     with open('requirements.txt') as f:
         return f.read().splitlines()
+
 
 setup(
     author='Jeff Wang',
@@ -63,4 +62,7 @@ setup(
             "dashboard = Dashboard.manage:main"
         ]
     },
+
+    # python setup.py test
+    test_suite='setup.get_test_suite',
 )
