@@ -16,7 +16,8 @@ async def plot_commits(commits, most_commits):
         await __plot_commit(commits[name], name, ax[index], most_commits)
         plt.setp(ax[index].get_xticklabels(), rotation=30, horizontalalignment='right')
 
-    return await __plot_to_svg(plt)
+    svg = await __plot_to_svg(plt)
+    return svg
 
 
 async def __plot_to_svg(plt):

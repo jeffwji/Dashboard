@@ -6,5 +6,6 @@ URL definition
 """
 urlpatterns = [
     # Default page
-    path('', views.hello_world, name='hello_world'),
+    path('', views.index, name='index'),
+    path('contribute', views.contribute, name='contribute'),
 ]

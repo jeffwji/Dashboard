@@ -1,15 +1,59 @@
 {% extends "base.html" %}
 
 {% block page_content %}
+
+<form id="devops_form" action="/contribute">
+    {% csrf_token %}
+    <label for="organization">Organization:</label><br>
+    <input type="text" id="organization" name="organization" value=""><br>
+    <label for="repository">Repository:</label><br>
+    <input type="text" id="repository" name="repository" value=""><br><br>
+    <input type="submit" value="Check Contribution">
+</form>
+
+{% csrf_token %}
+
+
 <h1>Contributions:</h1>
 
-{% if figure %}
-<div>
-    {% autoescape off %}
-    {{ figure }}
-    {% endautoescape %}
+<div id="figure">
 </div>
-{% endif %}
+
+<script type="text/javascript">
+$(document).ready(function(){
+    const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+
+    $("#devops_form").submit(function(e) {
+        e.preventDefault();
+
+        var action_url = e.currentTarget.action;
+        // var form = $(this);
+        const form = JSON.stringify(Object.fromEntries(new FormData(e.target)));
+
+        const request = new Request(
+            action_url,
+            {
+                headers: {
+                    'X-CSRFToken': csrftoken,
+                    "X-Requested-With": "XMLHttpRequest",
+                    "Content-Type": "application/json; charset=utf-8",
+                }
+            }
+        );
+
+        fetch(request, {
+            method: 'post',
+            body: form,
+        }).then((response) => {
+            response.text().then(figure => {
+                console.log(figure)
+                var html = $.parseHTML(figure);
+                $("#figure").html($(html));
+            });
+        });
+    });
+});
+</script>
 
 {% endblock %}
 
