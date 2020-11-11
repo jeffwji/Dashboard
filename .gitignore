@@ -1,4 +1,5 @@
 .idea
+.vscode
 *.iml
 __pycache__
 
@@ -8,3 +9,4 @@ dist
 *.sqlite3
 
 *.pyc
+*.eggs
