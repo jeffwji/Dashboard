@@ -10,3 +10,5 @@ dist
 
 *.pyc
 *.eggs
+.venv
+.pytest_cache
