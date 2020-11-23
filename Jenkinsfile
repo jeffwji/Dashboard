@@ -77,6 +77,7 @@ pipeline {
                 withPythonEnv("${workspace}/.venv/bin/"){
                     dir("${workspace}") {
                         sh 'apk add --no-cache py3-qt5'
+                        sn 'sed '/^PyQt5/d' -i requirements.txt'
                         sh 'pip install wheel nose coverage nosexcover pylint twine'
                         sh 'pip install -r requirements.txt'
                         sh 'pip list'
