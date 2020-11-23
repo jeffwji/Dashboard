@@ -76,7 +76,7 @@ pipeline {
                  */
                 withPythonEnv("${workspace}/.venv/bin/"){
                     dir("${workspace}") {
-                        sh 'apk add --no-cache py3-qt5'
+                        sh 'apk add --no-cache py3-qt5 libffi-dev'
                         sh 'sed "s/^PyQt5/#PyQt5/" -i requirements.txt'
                         sh 'pip install wheel nose coverage nosexcover pylint twine'
                         sh 'pip install -r requirements.txt'
@@ -156,10 +156,10 @@ pipeline {
          * Pushing to Nexus
          *
          * Run the following commands on client:
-         *   pip config set global.index http://192.168.10.65:8081/repository/pypi-central/simple
-         *   pip config set global.index-url http://192.168.10.65:8081/repository/pypi-central/simple
+         *   pip config set global.index http://192.168.10.65:8081/repository/pypi-central/simple/
+         *   pip config set global.index-url http://192.168.10.65:8081/repository/pypi-central/simple/
          *   pip config set global.trusted-host 192.168.10.65
-         *   pip config set global.extra-index-url http://192.168.10.65:8081/repository/pypi/simple
+         *   pip config set global.extra-index-url http://192.168.10.65:8081/repository/pypi/simple/
          */
         stage('Pushing to Repository') {
             steps {
