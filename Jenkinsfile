@@ -77,6 +77,7 @@ pipeline {
                 withPythonEnv("${workspace}/.venv/bin/"){
                     dir("${workspace}") {
                         sh 'apk add --no-cache py3-qt5'
+                        sh 'sed "s/^PyQt5/#PyQt5/" -i requirements.txt'
                         sh 'pip install wheel nose coverage nosexcover pylint twine'
                         sh 'pip install -r requirements.txt'
                         sh 'pip list'
@@ -144,6 +145,7 @@ pipeline {
                 echo 'Build Dashboard'
                 withPythonEnv("${workspace}/.venv/bin/"){
                     dir("${workspace}") {
+                        sh 'sed "s/^#PyQt5/PyQt5/" -i requirements.txt'
                         sh 'python setup.py egg_info -b.dev$(date "+%s") bdist_wheel'
                     }
                 }
