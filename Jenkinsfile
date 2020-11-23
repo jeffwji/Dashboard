@@ -76,6 +76,7 @@ pipeline {
                  */
                 withPythonEnv("${workspace}/.venv/bin/"){
                     dir("${workspace}") {
+                        sh 'pip install pip setuptools --upgrade'
                         sh 'pip install wheel nose coverage nosexcover pylint twine'
                         sh 'pip install -r requirements.txt'
                         sh 'pip list'
