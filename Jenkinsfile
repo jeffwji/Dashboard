@@ -146,6 +146,8 @@ pipeline {
                 withPythonEnv("${workspace}/.venv/bin/"){
                     dir("${workspace}") {
                         sh 'sed "s/^#PyQt5/PyQt5/" -i requirements.txt'
+                        sh 'sed "Nd" -i requirements.txt'
+                        sh 'sed "Nd" -i requirements.txt'
                         sh 'python setup.py egg_info -b.dev$(date "+%s") bdist_wheel'
                     }
                 }
