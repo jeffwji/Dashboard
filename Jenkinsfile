@@ -78,7 +78,7 @@ pipeline {
                     dir("${workspace}") {
                         sh 'apk add --no-cache py3-qt5 freetype zlib-dev jpeg-dev'
                         sh 'sed "s/^PyQt5/#PyQt5/" -i requirements.txt'
-                        sh 'pip install wheel nose coverage nosexcover pylint twine'
+                        sh 'pip install wheel nose coverage nosexcover pylint twine pytest'
                         sh 'pip install -r requirements.txt'
                         sh 'pip list'
                     }
