@@ -173,7 +173,7 @@ pipeline {
         internal_pypi
 
 [internal_pypi]
-    repository: http://192.168.10.65:8081/repository/pypi/
+    repository: http://192.168.56.110:8081/repository/pypi/
     username: ${user}
     password: ${pass}
 EOF'''
