@@ -113,7 +113,7 @@ pipeline {
                         withSonarQubeEnv('MySonarQube') {                      // name is defined in `Configure System`
                             sh 'echo workspace=${sonarHome}'
                             sh 'sonar-scanner \
-                                -Dsonar.host.url=http://192.168.10.65:9000 \
+                                -Dsonar.host.url=http://192.168.56.110:9000 \
                                 -Dsonar.projectKey=Dashboard \
                                 -Dsonar.projectVersion=1.0 \
                                 -Dsonar.language=py \
