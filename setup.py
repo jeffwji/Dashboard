@@ -4,7 +4,7 @@
 Example of how to use setuptools
 """
 
-__version__ = "2.0.0.dev0"
+__version__ = "2.0.0.dev1"
 
 from setuptools import setup, find_packages
 import unittest
